@@ -1,0 +1,23 @@
+.inputsearch{
+    color: #313131;
+    box-shadow: 0 0 0;
+    border: 0;
+    background: 0 0;
+    border-radius: 10px;
+    height: 40px;
+    padding: 0 18px;
+    padding-right: 50px;
+}
+ .serachbar{
+    border-radius: 10px;
+    background: #f5f7fa;
+    border: 1px solid #bfcfdc;
+    transition: all .2s ease-in;
+}
+.login_btn button:hover{
+    color: 1px solid red;
+    
+    border: 1px  solid red;
+    
+}
+    
