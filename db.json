@@ -143,11 +143,16 @@
     }
    ],
    "furniture" :[
-           {
-            "url" : "https://www.rentomojo.com/public/images/category/furniture-category-filter/Beds.jpg",
-            "title" : "Beds",
-            "id" :1
-        }
+    {
+       "beds": [
+     {
+         "url" : "https://www.rentomojo.com/public/images/category/furniture-category-filter/Beds.jpg",
+        "title" : "Beds",
+        "id" :1
+    }
+    ]
+            
+    }
             
    ],
    "fitness" :[
