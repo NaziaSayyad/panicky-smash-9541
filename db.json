@@ -1,0 +1,160 @@
+{
+    "appliances":[
+        {
+            "url" :"https://www.rentomojo.com/public/images/category/appliances-bg/washing-machines.jpg",
+            "title" :"Washing Machines",
+            "id" :1
+        },
+        {
+            "url" : "https://www.rentomojo.com/public/images/category/appliances-bg/tablets_new.jpg",
+            "title" : "Telivision",
+            "id" :2
+        }
+       
+    ],
+
+"Washingmachine" :[
+    {
+        "url" : "https://www.rentomojo.com/public/images/category/appliances-bg/tablets_new.jpg",
+        "title" : "Top Load Washing Machine",
+        "price" : 769,
+        "id" :3
+    }
+],
+"Refrigerators":[
+    {
+        "url": "https://p.rmjo.in/productSquare/w7951ctv-500x500.jpg",
+        "title" : "Single Door Fridge",
+        "price" : 719,
+        "id" : 4
+    },
+    {
+        "url" : "https://p.rmjo.in/productSquare/3c0jgjfo-250x250.jpg",
+        "title" : "Double Door Fridge",
+        "price" : 1049,
+        "id" : 5
+    }
+    
+],
+"telivision" : [
+    {
+        "url" : "https://p.rmjo.in/productSquare/1amqimbk-500x500.jpg",
+        "title" : "Smart LED TV",
+        "price" : 1269,
+        "id" : 6
+    }
+],
+"airconditioner" : [
+    {
+        "url" :"https://p.rmjo.in/productSquare/5eff000p-500x500.jpg",
+        "title" : "Inverter Air Conditioner",
+        "price" : 1939,
+        "id" : 7
+    }
+],
+"waterairpurifiers": [
+    {
+        "url" : "https://p.rmjo.in/productSquare/eoynt3bs-250x250.jpg",
+        "title" : "Air Purifier",
+        "Price" : 469,
+        "id" : 8
+    }
+],
+"microwaves" :[
+    {
+        "url": "https://p.rmjo.in/productSquare/n97vj5on-250x250.jpg",
+        "title" : "Micro Wave Solo 20L",
+        "price" : 299,
+        "id" : 9
+    }
+],
+"aircoolers" :[
+    {
+        "url" :"https://p.rmjo.in/productSquare/hpqgh67x-250x250.jpg",
+        "title" : "Air Cooler 27L",
+        "price" :299,
+        "id" : 10
+    }
+],
+"dishwashers" :[
+    {
+        "url" : "https://p.rmjo.in/productSquare/chg0uqso-250x250.jpg",
+        "title" : "IFB Dishwashers",
+        "price" :1409,
+        "id" : 11
+    }
+],
+
+"electronics" :[
+        {
+         "url" : " https://www.rentomojo.com/public/images/category/appliances-bg/smartphones_new.jpg",
+         "title" : "Smart Phones",
+         "id" : 1
+         },
+         {
+            "url" : "https://www.rentomojo.com/public/images/category/appliances-bg/smartphones_new.jpg",
+            "title" : " Smart Devices",
+            "id" : 2
+         },
+         {
+            "url" : "https://www.rentomojo.com/public/images/category/appliances-bg/laptops_new_2.jpg",
+            "title" : "Laptops",
+            "id" : 3
+         },
+         {
+            "url" : "https://www.rentomojo.com/public/images/category/appliances-bg/tablets_new.jpg",
+            "title" : "Tablets",
+            "id" : 4
+         }
+           
+           
+],
+"smartphones" :  [
+        {
+            "url": "https://p.rmjo.in/productSquare/yhx594uv-500x500.jpg",
+            "title" : "Samsung Galaxy S10+ (Black)",
+            "price" : 1479,
+            "id" : 1
+        }
+   ],
+   "smartdevices" :[
+    {
+        "url": "https://p.rmjo.in/productSquare/rsuzkom0-500x500.jpg",
+        "title" : " Amazon Fire TV Stick",
+        "price" : 119,
+        "id" : 2
+    }
+   ],
+   "laptops" :[
+    {
+        "url" : "https://p.rmjo.in/productSquare/298cbqj0-500x500.jpg",
+        "title" :"Lenovo IPad 3,Intel Core", 
+        "price" : 1329,
+        "id" : 3
+    }
+   ],
+
+   "tablets" :[
+    {
+        "url" :"https://p.rmjo.in/productSquare/ojeg5074-500x500.jpg",
+        "title" : " Apple I Pad ",
+        "price" : 2469,
+        "id" : 4
+    }
+   ],
+   "furniture" :[
+           {
+            "url" : "https://www.rentomojo.com/public/images/category/furniture-category-filter/Beds.jpg",
+            "title" : "Beds",
+            "id" :1
+        }
+            
+   ],
+   "fitness" :[
+    {
+        "url":"https://www.rentomojo.com/public/images/category/fitness/treadmills.jpg",
+        "title" : "treadmils",
+        "id" : "1"
+    }
+   ]
+}
