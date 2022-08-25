@@ -123,286 +123,800 @@
                     "url": "https://p.rmjo.in/productSquare/i1hxlzun-250x250.jpg",
                     "id": 1661412927876
                   }
-            ]
-           
-        }
-       
-      
-       
-    ],
-
-"Washingmachine" :[
-    {
-        "url" : "https://www.rentomojo.com/public/images/category/appliances-bg/tablets_new.jpg",
-        "title" : "Top Load Washing Machine",
-        "price" : 769,
-        "id" :3
-    },{
-        "url": "https://www.rentomojo.com/public/images/category/appliances-bg/tablets_new.jpg",
-        "title": "Top Load Washing Machine",
-        "price": 769,
-        "id": 3
-      },
-      {
-        "name": "Top Load Washing Machine",
-        "price": 769,
-        "url": "https://p.rmjo.in/productSquare/twx4hoa2-250x250.jpg",
-        "id": 1661395790865
-      },
-      {
-        "name": "Semi Automatic Washing Machine",
-        "price": 479,
-        "url": "https://p.rmjo.in/productSquare/49yxucoe-250x250.jpg",
-        "id": 1661395905557
-      },
-      {
-        "name": "Front Load Washing Machine",
-        "price": 1189,
-        "url": "https://p.rmjo.in/productSquare/kxxwd61q-250x250.jpg",
-        "id": 1661396011242
-      },
-      {
-        "name": "Cloth Dyer",
-        "price": 929,
-        "url": "https://p.rmjo.in/productSquare/ex9dpggj-250x250.jpg",
-        "id": 1661396076464
-      }
-],
-"Refrigerators":[
-    {
-        "url": "https://p.rmjo.in/productSquare/w7951ctv-500x500.jpg",
-        "title" : "Single Door Fridge",
-        "price" : 719,
-        "id" : 4
-    },
-    {
-        "url" : "https://p.rmjo.in/productSquare/3c0jgjfo-250x250.jpg",
-        "title" : "Double Door Fridge",
-        "price" : 1049,
-        "id" : 5
-    },
-    {
-        "name": "Single Door Fridge (170 Liter)",
-        "price": 179,
-        "url": "https://p.rmjo.in/productSquare/6xcgq39f-500x500.jpg",
-        "id": 1661412273129
-      },
-      {
-        "name": "Double Door Fridge",
-        "price": 1049,
-        "url": "https://p.rmjo.in/productSquare/3c0jgjfo-250x250.jpg",
-        "id": 1661412324470
-      },
-      {
-        "name": "Mini Fridge",
-        "price": 449,
-        "url": "https://p.rmjo.in/productSquare/n0dnrdzs-250x250.jpg",
-        "id": 1661412344451
-      },
-      {
-        "name": "Single Door Fridge (210 Liter)",
-        "price": 809,
-        "url": "https://p.rmjo.in/productSquare/t9nfjx7q-250x250.jpg",
-        "id": 1661412377151
-      }
-    
-],
-
-"telivision" : [
-    {
-        "url" : "https://p.rmjo.in/productSquare/1amqimbk-500x500.jpg",
-        "title" : "Smart LED TV",
-        "price" : 1269,
-        "id" : 6
-    },
-    {
-        "name": "Smart LED TV -43",
-        "price": 1269,
-        "url": "https://p.rmjo.in/productSquare/1amqimbk-500x500.jpg",
-        "id": 1661412732313
-      },
-      {
-        "name": "Smart LED TV -32",
-        "price": 849,
-        "url": "https://p.rmjo.in/productSquare/sokayigl-250x250.jpg",
-        "id": 1661412768232
-      },
-      {
-        "name": "LED TV-32",
-        "price": 839,
-        "url": "https://p.rmjo.in/productSquare/xaxrk3la-250x250.jpg",
-        "id": 1661412795390
-      },
-      {
-        "name": "LED TV-40",
-        "price": 1269,
-        "url": "https://p.rmjo.in/productSquare/v308sv6p-250x250.jpg",
-        "id": 1661412819384
-      },
-      {
-        "name": "Smart LED TV -49",
-        "price": 1339,
-        "url": "https://p.rmjo.in/productSquare/vo0uxgqw-250x250.jpg",
-        "id": 1661412854143
-      },
-      {
-        "name": "LED TV-24",
-        "price": 569,
-        "url": "https://p.rmjo.in/productSquare/i1hxlzun-250x250.jpg",
-        "id": 1661412927876
-      }
-],
-
-"airconditioner" : [
-    {
-        "url" :"https://p.rmjo.in/productSquare/5eff000p-500x500.jpg",
-        "title" : "Inverter Air Conditioner",
-        "price" : 1939,
-        "id" : 7
-    },
-    {
-        "name": "Inverter Air Conditioner 1 Ton",
-        "price": 1859,
-        "url": "https://p.rmjo.in/productSquare/5eff000p-500x500.jpg",
-        "id": 1661413208777
-      },
-      {
-        "name": "Air Conditioner 1 Ton",
-        "price": 1859,
-        "url": "https://p.rmjo.in/productSquare/l6xann5r-500x500.jpg",
-        "id": 1661413232806
-      },
-      {
-        "name": "Air Conditioner 1.5 Ton",
-        "price": 2269,
-        "url": "https://p.rmjo.in/productSquare/05gpq2h8-500x500.jpg",
-        "id": 1661413261931
-      },
-      {
-        "name": "Air Conditioner 1.5 Ton",
-        "price": 3699,
-        "url": "https://p.rmjo.in/productSquare/v1c75c2j-500x500.jpg",
-        "id": 1661413293194
-      }
-],
-
-"waterairpurifiers": [
-    {
-        "url" : "https://p.rmjo.in/productSquare/eoynt3bs-250x250.jpg",
-        "title" : "Air Purifier",
-        "Price" : 469,
-        "id" : 8
-    },
-    {
-        "name": "Air Puriffier Vistar 550i",
-        "price": 781,
-        "url": "https://p.rmjo.in/productSquare/ugvv8a2z-500x500.jpg",
-        "id": 1661413443092
-      },
-      {
-        "name": "Livpure Bolt -Smart Water Purfier",
-        "price": 445,
-        "url": "https://p.rmjo.in/productSquare/h6cyn81i-500x500.jpg",
-        "id": 1661413487189
-      },
-      {
-        "name": "Drink Prime - Smart Water Purifier",
-        "price": 423,
-        "url": "https://p.rmjo.in/productSquare/4p4yz9d3-250x250.jpg",
-        "id": 1661415772512
-      },
-      {
-        "name": "Doctor Fres - smart Water Purifier",
-        "price": 499,
-        "url": "https://p.rmjo.in/productSquare/l0f7qmpd-250x250.jpg",
-        "id": 1661415815778
-      },
-      {
-        "name": "Kent Max Water Purifier",
-        "price": 409,
-        "url": "https://p.rmjo.in/productSquare/rypid344-250x250.jpg",
-        "id": 1661415903155
-      },
-      {
-        "name": "Livpure Bolt - Smart Water Purifier",
-        "price": 445,
-        "url": "https://p.rmjo.in/productSquare/h6cyn81i-250x250.jpg",
-        "id": 1661415974567
-      }
-],
-
-"microwaves" :[
-    {
-        "url": "https://p.rmjo.in/productSquare/n97vj5on-250x250.jpg",
-        "title" : "Micro Wave Solo 20L",
-        "price" : 299,
-        "id" : 9
-    }
-],
-"aircoolers" :[
+            ],
+            "airconditioner" : [
+                {
+                    "url" :"https://p.rmjo.in/productSquare/5eff000p-500x500.jpg",
+                    "title" : "Inverter Air Conditioner",
+                    "price" : 1939,
+                    "id" : 7
+                },
+                {
+                    "name": "Inverter Air Conditioner 1 Ton",
+                    "price": 1859,
+                    "url": "https://p.rmjo.in/productSquare/5eff000p-500x500.jpg",
+                    "id": 1661413208777
+                  },
+                  {
+                    "name": "Air Conditioner 1 Ton",
+                    "price": 1859,
+                    "url": "https://p.rmjo.in/productSquare/l6xann5r-500x500.jpg",
+                    "id": 1661413232806
+                  },
+                  {
+                    "name": "Air Conditioner 1.5 Ton",
+                    "price": 2269,
+                    "url": "https://p.rmjo.in/productSquare/05gpq2h8-500x500.jpg",
+                    "id": 1661413261931
+                  },
+                  {
+                    "name": "Air Conditioner 1.5 Ton",
+                    "price": 3699,
+                    "url": "https://p.rmjo.in/productSquare/v1c75c2j-500x500.jpg",
+                    "id": 1661413293194
+                  }
+            ],
+            "waterairpurifiers": [
+                {
+                    "url" : "https://p.rmjo.in/productSquare/eoynt3bs-250x250.jpg",
+                    "title" : "Air Purifier",
+                    "Price" : 469,
+                    "id" : 8
+                },
+                {
+                    "name": "Air Puriffier Vistar 550i",
+                    "price": 781,
+                    "url": "https://p.rmjo.in/productSquare/ugvv8a2z-500x500.jpg",
+                    "id": 1661413443092
+                  },
+                  {
+                    "name": "Livpure Bolt -Smart Water Purfier",
+                    "price": 445,
+                    "url": "https://p.rmjo.in/productSquare/h6cyn81i-500x500.jpg",
+                    "id": 1661413487189
+                  },
+                  {
+                    "name": "Drink Prime - Smart Water Purifier",
+                    "price": 423,
+                    "url": "https://p.rmjo.in/productSquare/4p4yz9d3-250x250.jpg",
+                    "id": 1661415772512
+                  },
+                  {
+                    "name": "Doctor Fres - smart Water Purifier",
+                    "price": 499,
+                    "url": "https://p.rmjo.in/productSquare/l0f7qmpd-250x250.jpg",
+                    "id": 1661415815778
+                  },
+                  {
+                    "name": "Kent Max Water Purifier",
+                    "price": 409,
+                    "url": "https://p.rmjo.in/productSquare/rypid344-250x250.jpg",
+                    "id": 1661415903155
+                  },
+                  {
+                    "name": "Livpure Bolt - Smart Water Purifier",
+                    "price": 445,
+                    "url": "https://p.rmjo.in/productSquare/h6cyn81i-250x250.jpg",
+                    "id": 1661415974567
+                  }
+            ],
+            "microwaves" :[
+                {
+                    "url": "https://p.rmjo.in/productSquare/n97vj5on-250x250.jpg",
+                    "title" : "Micro Wave Solo 20L",
+                    "price" : 299,
+                    "id" : 9
+                },
+                {
+                    "title": "Convection Microwave 20L",
+                    "price": 529,
+                    "url": "https://p.rmjo.in/productSquare/n97vj5on-500x500.jpg",
+                    "id": 1661432220027
+                  },
+                  {
+                    "title": "Induction Cooktop",
+                    "price": 149,
+                    "url": "https://p.rmjo.in/productSquare/1swhrmnl-250x250.jpg",
+                    "id": 1661432259599
+                  }
+            ],
+            
+        "aircoolers" :[
     {
         "url" :"https://p.rmjo.in/productSquare/hpqgh67x-250x250.jpg",
         "title" : "Air Cooler 27L",
         "price" :299,
         "id" : 10
-    }
-],
-"dishwashers" :[
+    },
+    {
+        "title": "Air Cooler 27 L",
+        "price": 299,
+        "url": "https://p.rmjo.in/productSquare/hpqgh67x-250x250.jpg",
+        "id": 1661432414155
+      },
+      {
+        "title": "Air Cooler 70 L",
+        "price": 569,
+        "url": "https://p.rmjo.in/productSquare/emb9c0lx-250x250.jpg",
+        "id": 1661432434332
+      },
+      {
+        "title": "Air Cooler 35 L",
+        "price": 379,
+        "url": "https://p.rmjo.in/productSquare/s0gav60g-250x250.jpg",
+        "id": 1661432455116
+      }
+            ],
+            
+        "dishwashers" :[
     {
         "url" : "https://p.rmjo.in/productSquare/chg0uqso-250x250.jpg",
         "title" : "IFB Dishwashers",
         "price" :1409,
         "id" : 11
     }
-],
+            ]
 
+        }
+       
+      
+       
+    ],
+
+    "Washingmachine" :[
+        {
+            "url" : "https://www.rentomojo.com/public/images/category/appliances-bg/tablets_new.jpg",
+            "title" : "Top Load Washing Machine",
+            "price" : 769,
+            "id" :3
+        },{
+            "url": "https://www.rentomojo.com/public/images/category/appliances-bg/tablets_new.jpg",
+            "title": "Top Load Washing Machine",
+            "price": 769,
+            "id": 3
+          },
+          {
+            "name": "Top Load Washing Machine",
+            "price": 769,
+            "url": "https://p.rmjo.in/productSquare/twx4hoa2-250x250.jpg",
+            "id": 1661395790865
+          },
+          {
+            "name": "Semi Automatic Washing Machine",
+            "price": 479,
+            "url": "https://p.rmjo.in/productSquare/49yxucoe-250x250.jpg",
+            "id": 1661395905557
+          },
+          {
+            "name": "Front Load Washing Machine",
+            "price": 1189,
+            "url": "https://p.rmjo.in/productSquare/kxxwd61q-250x250.jpg",
+            "id": 1661396011242
+          },
+          {
+            "name": "Cloth Dyer",
+            "price": 929,
+            "url": "https://p.rmjo.in/productSquare/ex9dpggj-250x250.jpg",
+            "id": 1661396076464
+          }
+    ],
+    "Refrigerators":[
+        {
+            "url": "https://p.rmjo.in/productSquare/w7951ctv-500x500.jpg",
+            "title" : "Single Door Fridge",
+            "price" : 719,
+            "id" : 4
+        },
+        {
+            "url" : "https://p.rmjo.in/productSquare/3c0jgjfo-250x250.jpg",
+            "title" : "Double Door Fridge",
+            "price" : 1049,
+            "id" : 5
+        },
+        {
+            "name": "Single Door Fridge (170 Liter)",
+            "price": 179,
+            "url": "https://p.rmjo.in/productSquare/6xcgq39f-500x500.jpg",
+            "id": 1661412273129
+          },
+          {
+            "name": "Double Door Fridge",
+            "price": 1049,
+            "url": "https://p.rmjo.in/productSquare/3c0jgjfo-250x250.jpg",
+            "id": 1661412324470
+          },
+          {
+            "name": "Mini Fridge",
+            "price": 449,
+            "url": "https://p.rmjo.in/productSquare/n0dnrdzs-250x250.jpg",
+            "id": 1661412344451
+          },
+          {
+            "name": "Single Door Fridge (210 Liter)",
+            "price": 809,
+            "url": "https://p.rmjo.in/productSquare/t9nfjx7q-250x250.jpg",
+            "id": 1661412377151
+          }
+        
+    ],
+    
+    "telivision" : [
+        {
+            "url" : "https://p.rmjo.in/productSquare/1amqimbk-500x500.jpg",
+            "title" : "Smart LED TV",
+            "price" : 1269,
+            "id" : 6
+        },
+        {
+            "name": "Smart LED TV -43",
+            "price": 1269,
+            "url": "https://p.rmjo.in/productSquare/1amqimbk-500x500.jpg",
+            "id": 1661412732313
+          },
+          {
+            "name": "Smart LED TV -32",
+            "price": 849,
+            "url": "https://p.rmjo.in/productSquare/sokayigl-250x250.jpg",
+            "id": 1661412768232
+          },
+          {
+            "name": "LED TV-32",
+            "price": 839,
+            "url": "https://p.rmjo.in/productSquare/xaxrk3la-250x250.jpg",
+            "id": 1661412795390
+          },
+          {
+            "name": "LED TV-40",
+            "price": 1269,
+            "url": "https://p.rmjo.in/productSquare/v308sv6p-250x250.jpg",
+            "id": 1661412819384
+          },
+          {
+            "name": "Smart LED TV -49",
+            "price": 1339,
+            "url": "https://p.rmjo.in/productSquare/vo0uxgqw-250x250.jpg",
+            "id": 1661412854143
+          },
+          {
+            "name": "LED TV-24",
+            "price": 569,
+            "url": "https://p.rmjo.in/productSquare/i1hxlzun-250x250.jpg",
+            "id": 1661412927876
+          }
+    ],
+    "airconditioner" : [
+        {
+            "url" :"https://p.rmjo.in/productSquare/5eff000p-500x500.jpg",
+            "title" : "Inverter Air Conditioner",
+            "price" : 1939,
+            "id" : 7
+        },
+        {
+            "name": "Inverter Air Conditioner 1 Ton",
+            "price": 1859,
+            "url": "https://p.rmjo.in/productSquare/5eff000p-500x500.jpg",
+            "id": 1661413208777
+          },
+          {
+            "name": "Air Conditioner 1 Ton",
+            "price": 1859,
+            "url": "https://p.rmjo.in/productSquare/l6xann5r-500x500.jpg",
+            "id": 1661413232806
+          },
+          {
+            "name": "Air Conditioner 1.5 Ton",
+            "price": 2269,
+            "url": "https://p.rmjo.in/productSquare/05gpq2h8-500x500.jpg",
+            "id": 1661413261931
+          },
+          {
+            "name": "Air Conditioner 1.5 Ton",
+            "price": 3699,
+            "url": "https://p.rmjo.in/productSquare/v1c75c2j-500x500.jpg",
+            "id": 1661413293194
+          }
+    ],
+    "waterairpurifiers": [
+        {
+            "url" : "https://p.rmjo.in/productSquare/eoynt3bs-250x250.jpg",
+            "title" : "Air Purifier",
+            "Price" : 469,
+            "id" : 8
+        },
+        {
+            "name": "Air Puriffier Vistar 550i",
+            "price": 781,
+            "url": "https://p.rmjo.in/productSquare/ugvv8a2z-500x500.jpg",
+            "id": 1661413443092
+          },
+          {
+            "name": "Livpure Bolt -Smart Water Purfier",
+            "price": 445,
+            "url": "https://p.rmjo.in/productSquare/h6cyn81i-500x500.jpg",
+            "id": 1661413487189
+          },
+          {
+            "name": "Drink Prime - Smart Water Purifier",
+            "price": 423,
+            "url": "https://p.rmjo.in/productSquare/4p4yz9d3-250x250.jpg",
+            "id": 1661415772512
+          },
+          {
+            "name": "Doctor Fres - smart Water Purifier",
+            "price": 499,
+            "url": "https://p.rmjo.in/productSquare/l0f7qmpd-250x250.jpg",
+            "id": 1661415815778
+          },
+          {
+            "name": "Kent Max Water Purifier",
+            "price": 409,
+            "url": "https://p.rmjo.in/productSquare/rypid344-250x250.jpg",
+            "id": 1661415903155
+          },
+          {
+            "name": "Livpure Bolt - Smart Water Purifier",
+            "price": 445,
+            "url": "https://p.rmjo.in/productSquare/h6cyn81i-250x250.jpg",
+            "id": 1661415974567
+          }
+    ],
+    "microwaves" :[
+        {
+            "url": "https://p.rmjo.in/productSquare/n97vj5on-250x250.jpg",
+            "title" : "Micro Wave Solo 20L",
+            "price" : 299,
+            "id" : 9
+        },
+        {
+            "title": "Convection Microwave 20L",
+            "price": 529,
+            "url": "https://p.rmjo.in/productSquare/n97vj5on-500x500.jpg",
+            "id": 1661432220027
+          },
+          {
+            "title": "Induction Cooktop",
+            "price": 149,
+            "url": "https://p.rmjo.in/productSquare/1swhrmnl-250x250.jpg",
+            "id": 1661432259599
+          }
+    ],
+    
+"aircoolers" :[
+{
+"url" :"https://p.rmjo.in/productSquare/hpqgh67x-250x250.jpg",
+"title" : "Air Cooler 27L",
+"price" :299,
+"id" : 10
+},
+{
+"title": "Air Cooler 27 L",
+"price": 299,
+"url": "https://p.rmjo.in/productSquare/hpqgh67x-250x250.jpg",
+"id": 1661432414155
+},
+{
+"title": "Air Cooler 70 L",
+"price": 569,
+"url": "https://p.rmjo.in/productSquare/emb9c0lx-250x250.jpg",
+"id": 1661432434332
+},
+{
+"title": "Air Cooler 35 L",
+"price": 379,
+"url": "https://p.rmjo.in/productSquare/s0gav60g-250x250.jpg",
+"id": 1661432455116
+}
+    ],
+    
+"dishwashers" :[
+{
+"url" : "https://p.rmjo.in/productSquare/chg0uqso-250x250.jpg",
+"title" : "IFB Dishwashers",
+"price" :1409,
+"id" : 11
+}
+    ],
+    
 "electronics" :[
         {
-         "url" : " https://www.rentomojo.com/public/images/category/appliances-bg/smartphones_new.jpg",
-         "title" : "Smart Phones",
-         "id" : 1
-         },
-         {
-            "url" : "https://www.rentomojo.com/public/images/category/appliances-bg/smartphones_new.jpg",
-            "title" : " Smart Devices",
-            "id" : 2
-         },
-         {
-            "url" : "https://www.rentomojo.com/public/images/category/appliances-bg/laptops_new_2.jpg",
-            "title" : "Laptops",
-            "id" : 3
-         },
-         {
-            "url" : "https://www.rentomojo.com/public/images/category/appliances-bg/tablets_new.jpg",
-            "title" : "Tablets",
-            "id" : 4
-         }
+            "smartphones" :  [
+                {
+                    "url": "https://p.rmjo.in/productSquare/yhx594uv-500x500.jpg",
+                    "title" : "Samsung Galaxy S10+ (Black)",
+                    "price" : 1479,
+                    "id" : 1
+                },
+                {
+                    "title": "One Plus (Mirror Gray)",
+                    "price": 989,
+                    "url": "https://p.rmjo.in/productSquare/lbf7407m-250x250.jpg",
+                    "id": 1661432849311
+                  },
+                  {
+                    "title": "One Plus 7Pro (Mirror Gray)",
+                    "price": 1479,
+                    "url": "https://p.rmjo.in/productSquare/mxzy0xf9-250x250.jpg",
+                    "id": 1661432882905
+                  },
+                  {
+                    "title": "Apple iPhone XR 64GB(Black)",
+                    "price": 1639,
+                    "url": "https://p.rmjo.in/productSquare/vmbb6qhr-250x250.jpg",
+                    "id": 1661432914927
+                  },
+                  {
+                    "title": "Galaxy S10e(Black)",
+                    "price": 1599,
+                    "url": "https://p.rmjo.in/productSquare/vhk0dft5-250x250.jpg",
+                    "id": 1661432945562
+                  },
+                  {
+                    "title": "Galaxy Note 8(Black)",
+                    "price": 1549,
+                    "url": "https://p.rmjo.in/productSquare/xxdjq0k2-250x250.jpg",
+                    "id": 1661432998068
+                  },
+                  {
+                    "title": "One Plus 7T Pro (Haze Blue)",
+                    "price": 1639,
+                    "url": "https://p.rmjo.in/productSquare/hzh6xems-250x250.jpg",
+                    "id": 1661433027053
+                  },
+                  {
+                    "title": "Samsung Galaxy Note 10 (Aura Black)",
+                    "price": 1979,
+                    "url": "https://p.rmjo.in/productSquare/fhonufah-250x250.jpg",
+                    "id": 1661433070080
+                  },
+                  {
+                    "title": "Redmi K20 (Carbon Black)",
+                    "price": 649,
+                    "url": "https://p.rmjo.in/productSquare/bm2uhtm8-250x250.jpg",
+                    "id": 1661433100313
+                  },
+                  {
+                    "title": "Samsung Galaxy S10(Prism Black)",
+                    "price": 1729,
+                    "url": "https://p.rmjo.in/productSquare/goiz4ziw-250x250.jpg",
+                    "id": 1661433125740
+                  },
+                  {
+                    "title": "Apple iPhone 8(Gold)",
+                    "price": 1929,
+                    "url": "https://p.rmjo.in/productSquare/vw8fgse9-250x250.jpg",
+                    "id": 1661433160072
+                  },
+                  {
+                    "title": "Apple iphone XS (Gold)",
+                    "price": 2919,
+                    "url": "https://p.rmjo.in/productSquare/fusk2mmn-250x250.jpg",
+                    "id": 1661433182097
+                  },
+                  {
+                    "title": "iphone X (Silver)",
+                    "price": 2709,
+                    "url": "https://p.rmjo.in/productSquare/glmhtqql-250x250.jpg",
+                    "id": 1661433215388
+                  },
+                  {
+                    "title": "Apple iPhone XS Max (Silver)",
+                    "price": 3309,
+                    "url": "https://p.rmjo.in/productSquare/4kco0n7s-250x250.jpg",
+                    "id": 1661433243224
+                  },
+                  {
+                    "title": "Google Pexel 2(Black)",
+                    "price": 1509,
+                    "url": "https://p.rmjo.in/productSquare/tmp99edr-250x250.jpg",
+                    "id": 1661433272041
+                  },
+                  {
+                    "title": "Apple iPhone XR 128GB (White)",
+                    "price": 1959,
+                    "url": "https://p.rmjo.in/productSquare/siehnbg7-250x250.jpg",
+                    "id": 1661433300748
+                  }
+           ],
+           "smartdevices" :[
+            {
+                "url": "https://p.rmjo.in/productSquare/rsuzkom0-500x500.jpg",
+                "title" : " Amazon Fire TV Stick",
+                "price" : 119,
+                "id" : 2
+            },
+            {
+                "title": "Amazon Echo ",
+                "price": 199,
+                "url": "https://p.rmjo.in/productSquare/wph9nyr6-500x500.jpg",
+                "id": 1661433464444
+              },
+              {
+                "title": "boat AAVANTE ",
+                "price": 169,
+                "url": "https://p.rmjo.in/productSquare/xpe1x980-250x250.jpg",
+                "id": 1661433483789
+              },
+              {
+                "title": "Google Home",
+                "price": 229,
+                "url": "https://p.rmjo.in/productSquare/4m2jowry-250x250.jpg",
+                "id": 1661433511776
+              }
+           ],
+           "laptops" :[
+            {
+                "url" : "https://p.rmjo.in/productSquare/298cbqj0-500x500.jpg",
+                "title" :"Lenovo IPad 3,Intel Core", 
+                "price" : 1329,
+                "id" : 3
+            },
+            {
+                "title": "Dell Vostro 3490,Intel Core i3 processor,10th Gen ",
+                "price": 1090,
+                "url": "https://p.rmjo.in/productSquare/hint8o7v-500x500.jpg",
+                "id": 1661433662972
+              },
+              {
+                "title": "Dell Vostro 3490,Intel Core i3 processor,10th Gen ",
+                "price": 1090,
+                "url": "https://p.rmjo.in/productSquare/hint8o7v-500x500.jpg",
+                "id": 1661433667334
+              },
+              {
+                "title": "HP 15 Notebook, Intel Core i3 processor",
+                "price": 949,
+                "url": "https://p.rmjo.in/productSquare/nheby11s-250x250.jpg",
+                "id": 1661433709069
+              },
+              {
+                "title": "MacBook Air Intel Core  i5 processor, 5th Gen ",
+                "price": 1929,
+                "url": "https://p.rmjo.in/productSquare/ut7qal3b-250x250.jpg",
+                "id": 1661433753754
+              },
+              {
+                "title": "Lenovo IdeaPad 3, Intel Core i5 processor",
+                "price": 1329,
+                "url": "https://p.rmjo.in/productSquare/298cbqj0-250x250.jpg",
+                "id": 1661433792619
+              },
+              {
+                "title": "HP EliteBook 820 G3, Intel Core i5 processor,6th Generation",
+                "price": 909,
+                "url": "https://p.rmjo.in/productSquare/pjxdupjf-250x250.jpg",
+                "id": 1661433838996
+              },
+              {
+                "title": "Liber, Intel Core i5, 8th Generation",
+                "price": 1159,
+                "url": "Avitar",
+                "id": 1661433874858
+              },
+              {
+                "title": "Dell Lattitude, Intel Core i5 processor, 8th Gen -(8 GB)",
+                "price": 1839,
+                "url": "https://p.rmjo.in/productSquare/ue1bj44n-250x250.jpg",
+                "id": 1661433922855
+              },
+              {
+                "title": "New Aple MacBook Air 13.3 inch (Intel Core i3 10th Generation",
+                "price": 2499,
+                "url": "https://p.rmjo.in/productSquare/66zdf9n1-250x250.jpg",
+                "id": 1661433964053
+              }
+           ],
+           "tablets" :[
+            {
+                "url" :"https://p.rmjo.in/productSquare/ojeg5074-500x500.jpg",
+                "title" : " Apple I Pad ",
+                "price" : 2469,
+                "id" : 4
+            },
+            {
+                "title": "Apple iPad 10.2 Inch (Grey)",
+                "price": 1219,
+                "url": "https://p.rmjo.in/productSquare/prlx76wq-250x250.jpg",
+                "id": 1661434265502
+              },
+              {
+                "title": "Samsung Galaxy Tab S4(Black)",
+                "price": 1599,
+                "url": "https://p.rmjo.in/productSquare/dvlj6ic5-250x250.jpg",
+                "id": 1661434296392
+              }
+           ]
+        }
            
            
 ],
 "smartphones" :  [
-        {
-            "url": "https://p.rmjo.in/productSquare/yhx594uv-500x500.jpg",
-            "title" : "Samsung Galaxy S10+ (Black)",
-            "price" : 1479,
-            "id" : 1
-        }
-   ],
+    {
+        "url": "https://p.rmjo.in/productSquare/yhx594uv-500x500.jpg",
+        "title" : "Samsung Galaxy S10+ (Black)",
+        "price" : 1479,
+        "id" : 1
+    },
+    {
+        "title": "One Plus (Mirror Gray)",
+        "price": 989,
+        "url": "https://p.rmjo.in/productSquare/lbf7407m-250x250.jpg",
+        "id": 1661432849311
+      },
+      {
+        "title": "One Plus 7Pro (Mirror Gray)",
+        "price": 1479,
+        "url": "https://p.rmjo.in/productSquare/mxzy0xf9-250x250.jpg",
+        "id": 1661432882905
+      },
+      {
+        "title": "Apple iPhone XR 64GB(Black)",
+        "price": 1639,
+        "url": "https://p.rmjo.in/productSquare/vmbb6qhr-250x250.jpg",
+        "id": 1661432914927
+      },
+      {
+        "title": "Galaxy S10e(Black)",
+        "price": 1599,
+        "url": "https://p.rmjo.in/productSquare/vhk0dft5-250x250.jpg",
+        "id": 1661432945562
+      },
+      {
+        "title": "Galaxy Note 8(Black)",
+        "price": 1549,
+        "url": "https://p.rmjo.in/productSquare/xxdjq0k2-250x250.jpg",
+        "id": 1661432998068
+      },
+      {
+        "title": "One Plus 7T Pro (Haze Blue)",
+        "price": 1639,
+        "url": "https://p.rmjo.in/productSquare/hzh6xems-250x250.jpg",
+        "id": 1661433027053
+      },
+      {
+        "title": "Samsung Galaxy Note 10 (Aura Black)",
+        "price": 1979,
+        "url": "https://p.rmjo.in/productSquare/fhonufah-250x250.jpg",
+        "id": 1661433070080
+      },
+      {
+        "title": "Redmi K20 (Carbon Black)",
+        "price": 649,
+        "url": "https://p.rmjo.in/productSquare/bm2uhtm8-250x250.jpg",
+        "id": 1661433100313
+      },
+      {
+        "title": "Samsung Galaxy S10(Prism Black)",
+        "price": 1729,
+        "url": "https://p.rmjo.in/productSquare/goiz4ziw-250x250.jpg",
+        "id": 1661433125740
+      },
+      {
+        "title": "Apple iPhone 8(Gold)",
+        "price": 1929,
+        "url": "https://p.rmjo.in/productSquare/vw8fgse9-250x250.jpg",
+        "id": 1661433160072
+      },
+      {
+        "title": "Apple iphone XS (Gold)",
+        "price": 2919,
+        "url": "https://p.rmjo.in/productSquare/fusk2mmn-250x250.jpg",
+        "id": 1661433182097
+      },
+      {
+        "title": "iphone X (Silver)",
+        "price": 2709,
+        "url": "https://p.rmjo.in/productSquare/glmhtqql-250x250.jpg",
+        "id": 1661433215388
+      },
+      {
+        "title": "Apple iPhone XS Max (Silver)",
+        "price": 3309,
+        "url": "https://p.rmjo.in/productSquare/4kco0n7s-250x250.jpg",
+        "id": 1661433243224
+      },
+      {
+        "title": "Google Pexel 2(Black)",
+        "price": 1509,
+        "url": "https://p.rmjo.in/productSquare/tmp99edr-250x250.jpg",
+        "id": 1661433272041
+      },
+      {
+        "title": "Apple iPhone XR 128GB (White)",
+        "price": 1959,
+        "url": "https://p.rmjo.in/productSquare/siehnbg7-250x250.jpg",
+        "id": 1661433300748
+      }
+],
+
+
    "smartdevices" :[
     {
         "url": "https://p.rmjo.in/productSquare/rsuzkom0-500x500.jpg",
         "title" : " Amazon Fire TV Stick",
         "price" : 119,
         "id" : 2
-    }
+    },
+    {
+        "title": "Amazon Echo ",
+        "price": 199,
+        "url": "https://p.rmjo.in/productSquare/wph9nyr6-500x500.jpg",
+        "id": 1661433464444
+      },
+      {
+        "title": "boat AAVANTE ",
+        "price": 169,
+        "url": "https://p.rmjo.in/productSquare/xpe1x980-250x250.jpg",
+        "id": 1661433483789
+      },
+      {
+        "title": "Google Home",
+        "price": 229,
+        "url": "https://p.rmjo.in/productSquare/4m2jowry-250x250.jpg",
+        "id": 1661433511776
+      }
    ],
+
    "laptops" :[
     {
         "url" : "https://p.rmjo.in/productSquare/298cbqj0-500x500.jpg",
         "title" :"Lenovo IPad 3,Intel Core", 
         "price" : 1329,
         "id" : 3
-    }
+    },
+    {
+        "title": "Dell Vostro 3490,Intel Core i3 processor,10th Gen ",
+        "price": 1090,
+        "url": "https://p.rmjo.in/productSquare/hint8o7v-500x500.jpg",
+        "id": 1661433662972
+      },
+      {
+        "title": "Dell Vostro 3490,Intel Core i3 processor,10th Gen ",
+        "price": 1090,
+        "url": "https://p.rmjo.in/productSquare/hint8o7v-500x500.jpg",
+        "id": 1661433667334
+      },
+      {
+        "title": "HP 15 Notebook, Intel Core i3 processor",
+        "price": 949,
+        "url": "https://p.rmjo.in/productSquare/nheby11s-250x250.jpg",
+        "id": 1661433709069
+      },
+      {
+        "title": "MacBook Air Intel Core  i5 processor, 5th Gen ",
+        "price": 1929,
+        "url": "https://p.rmjo.in/productSquare/ut7qal3b-250x250.jpg",
+        "id": 1661433753754
+      },
+      {
+        "title": "Lenovo IdeaPad 3, Intel Core i5 processor",
+        "price": 1329,
+        "url": "https://p.rmjo.in/productSquare/298cbqj0-250x250.jpg",
+        "id": 1661433792619
+      },
+      {
+        "title": "HP EliteBook 820 G3, Intel Core i5 processor,6th Generation",
+        "price": 909,
+        "url": "https://p.rmjo.in/productSquare/pjxdupjf-250x250.jpg",
+        "id": 1661433838996
+      },
+      {
+        "title": "Liber, Intel Core i5, 8th Generation",
+        "price": 1159,
+        "url": "Avitar",
+        "id": 1661433874858
+      },
+      {
+        "title": "Dell Lattitude, Intel Core i5 processor, 8th Gen -(8 GB)",
+        "price": 1839,
+        "url": "https://p.rmjo.in/productSquare/ue1bj44n-250x250.jpg",
+        "id": 1661433922855
+      },
+      {
+        "title": "New Aple MacBook Air 13.3 inch (Intel Core i3 10th Generation",
+        "price": 2499,
+        "url": "https://p.rmjo.in/productSquare/66zdf9n1-250x250.jpg",
+        "id": 1661433964053
+      }
    ],
 
    "tablets" :[
@@ -411,8 +925,21 @@
         "title" : " Apple I Pad ",
         "price" : 2469,
         "id" : 4
-    }
+    },
+    {
+        "title": "Apple iPad 10.2 Inch (Grey)",
+        "price": 1219,
+        "url": "https://p.rmjo.in/productSquare/prlx76wq-250x250.jpg",
+        "id": 1661434265502
+      },
+      {
+        "title": "Samsung Galaxy Tab S4(Black)",
+        "price": 1599,
+        "url": "https://p.rmjo.in/productSquare/dvlj6ic5-250x250.jpg",
+        "id": 1661434296392
+      }
    ],
+
    "furniture" :[
     {
        "beds": [

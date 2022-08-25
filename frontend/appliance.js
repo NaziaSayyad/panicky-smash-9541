@@ -7,14 +7,15 @@ let get_washingmachine = async ()=>{
     let res = await fetch(`https://poject-panicky-smash-9541.herokuapp.com/api/washingmachine`);
     let data = await res.json();
     console.log(data,"washing machine");
-    localStorage.setItem("washing_data",JSON.stringify(data));
-    window.location.href="product.html";
+
+    // localStorage.setItem("washing_data",JSON.stringify(data));
+    // window.location.href="product.html";
    
 }
 //  2 
 let btn2 = document.getElementById("ref_prdcts");
 btn2.onclick = ()=>{
-    get_ref();
+    // get_ref();
 }
 let get_ref = async ()=>{
     let res = await fetch(`https://poject-panicky-smash-9541.herokuapp.com/api/Refrigerators`);
