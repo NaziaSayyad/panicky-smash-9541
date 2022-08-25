@@ -30,5 +30,6 @@ let append_other_category = (data) => {
 
 }
 
-
 append_other_category(washing_data);
+
+

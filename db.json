@@ -1,15 +1,133 @@
 {
+    
     "appliances":[
         {
-            "url" :"https://www.rentomojo.com/public/images/category/appliances-bg/washing-machines.jpg",
-            "title" :"Washing Machines",
-            "id" :1
-        },
-        {
-            "url" : "https://www.rentomojo.com/public/images/category/appliances-bg/tablets_new.jpg",
-            "title" : "Telivision",
-            "id" :2
+           
+            "Washingmachine" :[
+                {
+                    "url" : "https://www.rentomojo.com/public/images/category/appliances-bg/tablets_new.jpg",
+                    "title" : "Top Load Washing Machine",
+                    "price" : 769,
+                    "id" :3
+                },{
+                    "url": "https://www.rentomojo.com/public/images/category/appliances-bg/tablets_new.jpg",
+                    "title": "Top Load Washing Machine",
+                    "price": 769,
+                    "id": 3
+                  },
+                  {
+                    "name": "Top Load Washing Machine",
+                    "price": 769,
+                    "url": "https://p.rmjo.in/productSquare/twx4hoa2-250x250.jpg",
+                    "id": 1661395790865
+                  },
+                  {
+                    "name": "Semi Automatic Washing Machine",
+                    "price": 479,
+                    "url": "https://p.rmjo.in/productSquare/49yxucoe-250x250.jpg",
+                    "id": 1661395905557
+                  },
+                  {
+                    "name": "Front Load Washing Machine",
+                    "price": 1189,
+                    "url": "https://p.rmjo.in/productSquare/kxxwd61q-250x250.jpg",
+                    "id": 1661396011242
+                  },
+                  {
+                    "name": "Cloth Dyer",
+                    "price": 929,
+                    "url": "https://p.rmjo.in/productSquare/ex9dpggj-250x250.jpg",
+                    "id": 1661396076464
+                  }
+            ],
+            "Refrigerators":[
+                {
+                    "url": "https://p.rmjo.in/productSquare/w7951ctv-500x500.jpg",
+                    "title" : "Single Door Fridge",
+                    "price" : 719,
+                    "id" : 4
+                },
+                {
+                    "url" : "https://p.rmjo.in/productSquare/3c0jgjfo-250x250.jpg",
+                    "title" : "Double Door Fridge",
+                    "price" : 1049,
+                    "id" : 5
+                },
+                {
+                    "name": "Single Door Fridge (170 Liter)",
+                    "price": 179,
+                    "url": "https://p.rmjo.in/productSquare/6xcgq39f-500x500.jpg",
+                    "id": 1661412273129
+                  },
+                  {
+                    "name": "Double Door Fridge",
+                    "price": 1049,
+                    "url": "https://p.rmjo.in/productSquare/3c0jgjfo-250x250.jpg",
+                    "id": 1661412324470
+                  },
+                  {
+                    "name": "Mini Fridge",
+                    "price": 449,
+                    "url": "https://p.rmjo.in/productSquare/n0dnrdzs-250x250.jpg",
+                    "id": 1661412344451
+                  },
+                  {
+                    "name": "Single Door Fridge (210 Liter)",
+                    "price": 809,
+                    "url": "https://p.rmjo.in/productSquare/t9nfjx7q-250x250.jpg",
+                    "id": 1661412377151
+                  }
+                
+            ],
+            
+            "telivision" : [
+                {
+                    "url" : "https://p.rmjo.in/productSquare/1amqimbk-500x500.jpg",
+                    "title" : "Smart LED TV",
+                    "price" : 1269,
+                    "id" : 6
+                },
+                {
+                    "name": "Smart LED TV -43",
+                    "price": 1269,
+                    "url": "https://p.rmjo.in/productSquare/1amqimbk-500x500.jpg",
+                    "id": 1661412732313
+                  },
+                  {
+                    "name": "Smart LED TV -32",
+                    "price": 849,
+                    "url": "https://p.rmjo.in/productSquare/sokayigl-250x250.jpg",
+                    "id": 1661412768232
+                  },
+                  {
+                    "name": "LED TV-32",
+                    "price": 839,
+                    "url": "https://p.rmjo.in/productSquare/xaxrk3la-250x250.jpg",
+                    "id": 1661412795390
+                  },
+                  {
+                    "name": "LED TV-40",
+                    "price": 1269,
+                    "url": "https://p.rmjo.in/productSquare/v308sv6p-250x250.jpg",
+                    "id": 1661412819384
+                  },
+                  {
+                    "name": "Smart LED TV -49",
+                    "price": 1339,
+                    "url": "https://p.rmjo.in/productSquare/vo0uxgqw-250x250.jpg",
+                    "id": 1661412854143
+                  },
+                  {
+                    "name": "LED TV-24",
+                    "price": 569,
+                    "url": "https://p.rmjo.in/productSquare/i1hxlzun-250x250.jpg",
+                    "id": 1661412927876
+                  }
+            ]
+           
         }
+       
+      
        
     ],
 
