@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div> <h1> Washing Machine Products </h1></div>
+    <form action="">
+        <input type="text" placeholder="Enter Product URL" id="url"><br>
+        <input type="text" placeholder="Enter the Name" id="name"> <br>
+        <input type="number" placeholder="Enter Price" id="price"> <br>
+        <button id="add_prdts">ADD PRODUCTS </button>
+    </form>
+
+    <div> <h1>  Refrigerators & Fridge </h1></div>
+    <form action="">
+        <input type="text" placeholder="Enter Product URL" id="ref_url"><br>
+        <input type="text" placeholder="Enter the Name" id="ref_name"> <br>
+        <input type="number" placeholder="Enter Price" id="ref_price"> <br>
+        <button onclick="add_refigerator(event)">ADD PRODUCTS </button>
+    </form>
+
+    <div> <h1>  Telivision </h1></div>
+    <form action="">
+        <input type="text" placeholder="Enter Product URL" id="tel_url"><br>
+        <input type="text" placeholder="Enter the Name" id="tel_name"> <br>
+        <input type="number" placeholder="Enter Price" id="tel_price"> <br>
+        <button onclick="add_tel(event)">ADD PRODUCTS </button>
+    </form>
+<div> <h1> Air conditioner </h1></div>
+<form action="">
+    <input type="text" placeholder="Enter Product URL" id="air_url"><br>
+    <input type="text" placeholder="Enter the Name" id="air_name"> <br>
+    <input type="number" placeholder="Enter Price" id="air_price"> <br>
+    <button onclick="add_air(event)">ADD PRODUCTS </button>
+</form>
+
+</body>
+</html>
+<script src="add_products.js"></script>
