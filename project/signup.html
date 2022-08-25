@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="./css/signup.css">
+</head>
+<body>
+    
+    <div class="login-wrap">
+        <div class="login-html">
+            <input id="tab-1" type="radio" name="tab" class="sign-in" onclick="signin()" ><label for="tab-1" class="tab" >Sign In</label>
+            <input id="tab-2" type="radio" name="tab" class="sign-up" checked><label for="tab-2" class="tab">Sign up</label>
+            <div class="login-form">
+                <div class="sign-up-htm">
+                    <div class="group">
+                        <label for="user" class="label">Username</label>
+                        <input id="username" type="text" class="input">
+                    </div>
+                    <div class="group">
+                        <label for="pass" class="label">Password</label>
+                        <input id="password" type="password" class="input" data-type="password">
+                    </div>
+                    <div class="group">
+                        <label for="phone" class="label">Number</label>
+                        <input id="phone" type="text" class="input" >
+                    </div>
+                    <div class="group">
+                        <label for="email" class="label">Email Address</label>
+                        <input id="email" type="text" class="input">
+                    </div>
+                    <div class="group">
+                       <button class="button" onclick="getData()">Submit</button>
+                    </div>
+                    <div class="hr"></div>
+                    <div class="foot-lnk">
+                        <label for="tab-1">Already Member?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+    
+    
+
+<script src="./script/signup.js"></script>
+<!-- 
+<div>
+    <form >
+        <input type="text" placeholder="username" id="username">
+        <input type="email" placeholder="email" id="email">
+        <input type="password" placeholder="password" id="password">
+        <input placeholder="number" id="phone" type="text">
+        <input id="submit" name="submit" type="submit" value="Submit" onclick="signup()">
+    </form>
+</div> -->
