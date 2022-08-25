@@ -4,12 +4,13 @@ btn1.onclick = ()=>{
  }
 let flag =0;
 let get_washingmachine = async ()=>{
-    let res = await fetch(`https://poject-panicky-smash-9541.herokuapp.com/api/washingmachine`);
+    let res = await fetch(`https://poject-panicky-smash-9541.herokuapp.com/api/appliances`);
     let data = await res.json();
-    console.log(data,"washing machine");
+    let result  = data[0].Washingmachine
+    console.log(data[0].Washingmachine,"washing machine");
 
-    // localStorage.setItem("washing_data",JSON.stringify(data));
-    // window.location.href="product.html";
+    localStorage.setItem("washing_data",JSON.stringify(result));
+    window.location.href="product.html";
    
 }
 //  2 
