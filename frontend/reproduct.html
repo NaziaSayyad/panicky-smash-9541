@@ -1,7 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/product.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="prdcts"></div>    
 
-
-let washing_data = JSON.parse(localStorage.getItem("washing_data"));
-console.log(washing_data)
+</body>
+</html>
+<script>
 
 let ref_data = JSON.parse(localStorage.getItem("ref_data"));
 
@@ -29,6 +41,7 @@ let append_other_category = (data) => {
     });
 
 }
+append_other_category(ref_data);
 
 
-append_other_category(washing_data);
+</script>

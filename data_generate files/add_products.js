@@ -11,7 +11,7 @@ let add_products = async  (event)=>{
         url :document.getElementById("url").value,
         id:  Date.now()
     }
-    let res = await fetch(`https://poject-panicky-smash-9541.herokuapp.com/api/microwaves`,{
+    let res = await fetch(`https://poject-panicky-smash-9541.herokuapp.com/api/Washingmachine`,{
         method: "POST",
         body: JSON.stringify(data),
         headers:{
@@ -22,7 +22,7 @@ let add_products = async  (event)=>{
     res = await res.json();
     console.log(res);
     // getdata();
-    title =  document.getElementById("name").value = null;
+        title =  document.getElementById("name").value = null;
         price = document.getElementById("price").value = null;
         url  = document.getElementById("url").value= null;
         id =  Date.now()
@@ -46,7 +46,7 @@ let add_refigerator = async (e) =>{
     res = await res.json();
     console.log(res);
     // getdata();
-        name =  document.getElementById("ref_name").value = null;
+       title =  document.getElementById("ref_name").value = null;
         price = document.getElementById("ref_price").value = null;
         url  = document.getElementById("ref_url").value= null;
         id =  Date.now()
@@ -56,7 +56,7 @@ let add_refigerator = async (e) =>{
 let add_tel = async (event) =>{
     event.preventDefault();
     let data ={
-        name: document.getElementById("tel_name").value,
+        title: document.getElementById("tel_name").value,
         price : +document.getElementById("tel_price").value,
         url :document.getElementById("tel_url").value,
         id:  Date.now()
