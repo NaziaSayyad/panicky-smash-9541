@@ -1,12 +1,15 @@
 
 
-let washing_data = JSON.parse(localStorage.getItem("washing_data"))
+let washing_data = JSON.parse(localStorage.getItem("washing_data"));
+console.log(washing_data)
 
 let append_other_category = (data) => {
     let container= document.getElementById("prdcts");
     // container.innerHTML = null;
 
     data.forEach(({title,id,url,price})=> {
+        console.log("tit",title);
+        // console.log();
             
      let name = document.createElement("h3");
         name.innerText = title;

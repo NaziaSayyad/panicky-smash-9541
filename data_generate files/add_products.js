@@ -22,7 +22,7 @@ let add_products = async  (event)=>{
     res = await res.json();
     console.log(res);
     // getdata();
-        name =  document.getElementById("name").value = null;
+    title =  document.getElementById("name").value = null;
         price = document.getElementById("price").value = null;
         url  = document.getElementById("url").value= null;
         id =  Date.now()
@@ -30,7 +30,7 @@ let add_products = async  (event)=>{
 let add_refigerator = async (e) =>{
     e.preventDefault();
     let data ={
-        name: document.getElementById("ref_name").value,
+        title: document.getElementById("ref_name").value,
         price : +document.getElementById("ref_price").value,
         url :document.getElementById("ref_url").value,
         id:  Date.now()
