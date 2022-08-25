@@ -254,18 +254,7 @@
     ],
 
     "Washingmachine" :[
-        {
-            "url" : "https://www.rentomojo.com/public/images/category/appliances-bg/tablets_new.jpg",
-            "title" : "Top Load Washing Machine",
-            "price" : 769,
-            "id" :3
-        },{
-            "url": "https://www.rentomojo.com/public/images/category/appliances-bg/tablets_new.jpg",
-            "title": "Top Load Washing Machine",
-            "price": 769,
-            "id": 3
-          },
-          {
+         {
             "name": "Top Load Washing Machine",
             "price": 769,
             "url": "https://p.rmjo.in/productSquare/twx4hoa2-250x250.jpg",
