@@ -51,10 +51,15 @@ body{
     width: 24%;
     height: 500px;
 }
-.appliances{
+#appliances{
     border: 2px solid;
     width: 73%;
     height: 500px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    grid-gap: 25px;
 }
 .logo{
     color: #717171;
@@ -227,10 +232,90 @@ small{
     outline: none;
     width: 70%;
 }
-/* .sug input{
-    background: #fff;
-    border-radius: 3px;
-    border: 1px solid #1dbdc0;
-    padding: 15px;
-    margin-left: 2%;
+
+/* .pnam img{
+    height: 30px;
+    width: 30px;
+}
+
+  .pnam {
+    border-radius: 28px;
+    cursor: default;
+    height: 32px;
+    justify-content: space-between;
+    padding: 0 12px;
+    white-space: nowrap;
+    z-index: 1;
+}
+.chip, .chip .chip__content {
+    align-items: center;
+    display: inline-flex;
+    vertical-align: middle;
+}
+p, span {
+    font-weight: 400;
 } */
+
+
+.rm-quickview__container {
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    background: #fff;
+    padding-bottom: 17px;
+    left: 0;
+    bottom: -53px;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    box-shadow: 0 7px 7px 0 rgb(0 0 0 / 10%);
+    border: 1px solid #e6e6e6;
+    border-top: 0;
+    transition: opacity .6s,visibility .6s;
+    /* display: none; */
+}
+
+.rm-quickv__btn {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    color: #1dbdc0;
+    border: 1px solid #1dbdc0;
+    border-radius: 30px;
+    display: none;
+}
+
+.rm-quickview__container:hover+.rm-quickv__btn{
+    display: block;
+}
+
+.myDIV{
+    border: 1px solid #e6e6e6;
+}
+.myDIV .nam{
+    color: #313131;
+    font-size: 16px;
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border-bottom:1px solid #e6e6e6;
+    padding: 16px!important;
+    margin: auto;
+}
+.kimat{
+    color: #313131;
+    font-size: 14px;
+    font-weight: 200;
+    padding: 16px!important;
+}
+.photo{
+    align-self: flex-end;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    transition: all 0s linear;
+    border-radius: 2px 2px 0 0;
+    position: relative;
+    padding: 1px;
+}

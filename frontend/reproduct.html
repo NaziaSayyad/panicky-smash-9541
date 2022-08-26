@@ -18,8 +18,8 @@
 let ref_data = JSON.parse(localStorage.getItem("ref_data"));
 
 
-let append_other_category = (data) => {
-    let container= document.getElementById("prdcts");
+let append_other_ref = (data) => {
+    let container= document.getElementById("appliancesR");
     container.innerHTML = null;
 
     data.forEach(({title,id,url,price,name})=> {
@@ -41,7 +41,7 @@ let append_other_category = (data) => {
     });
 
 }
-append_other_category(ref_data);
+append_other_ref(ref_data);
 
 
 </script>

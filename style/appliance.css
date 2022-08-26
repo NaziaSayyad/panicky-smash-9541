@@ -6,7 +6,7 @@ body{
     margin: 0;
 }
 .container{
-    position: fixed;
+    position:fixed;
     width: 100%;
     top: 58px;
     padding: 0;
@@ -86,6 +86,7 @@ body{
     padding-right: 15px;
     margin-bottom: 48px!important;
     margin-top: 24px!important;
+    cursor: pointer;
 }
 .photo{
     /* position: relative; */

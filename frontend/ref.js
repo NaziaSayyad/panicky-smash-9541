@@ -1,12 +1,7 @@
+let ref_data = JSON.parse(localStorage.getItem("ref_data"));
 
 
-let washing_data = JSON.parse(localStorage.getItem("washing_data"));
-console.log(washing_data)
-
-// let ref_data = JSON.parse(localStorage.getItem("ref_data"));
-
-
-let append_other_wash = (data) => {
+let append_other_ref = (data) => {
     let container= document.getElementById("appliances");
     container.innerHTML = null;
 
@@ -25,13 +20,8 @@ let append_other_wash = (data) => {
 
     let div = document.createElement("div");
     div.append(nam,image,pr)
-    container.append(div)
+        container.append(div)
     });
 
 }
-
-append_other_wash(washing_data);
-
-
-
-
+append_other_ref(ref_data);

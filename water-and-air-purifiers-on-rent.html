@@ -5,8 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/viewAllAppliance.css">
-    <title data-vue-meta="true">Rent Kitchen, Dining &amp; Home Appliances in Pune | RentoMojo</title>
+    <title data-vue-meta="true">Water Purifiers & Air Purifiers on Rent (Top &amp; Front Load) in Pune | RentoMojo</title>
 </head>
+<style>
+    #appliancesWA{
+    /* border: 2px solid; */
+    width: 73%;
+    height: 500px;
+    margin-top: 41px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    grid-gap: 25px;
+    /* border: 2px solid; */
+}
+</style>
 <body>
     <div id="navbar">
 
@@ -54,35 +67,35 @@
             <div class="selection">
                 <div class="hdn">PRODUCT TYPE</div>
                 <div class="checkB">
-                    <input type="checkbox" id="myCheck" onclick="ref()">
+                    <input type="checkbox" id="myCheck">
                     <span>Refrigators & Freezers (6)</span>
                 </div>
                 <div class="checkB">
-                    <input type="checkbox" id="myCheck" onclick="tv()">
+                    <input type="checkbox" id="myCheck">
                     <span>Televisions (7)</span>
                 </div>
                 <div class="checkB">
-                    <input type="checkbox" id="myCheck" onclick="wm()">
+                    <input type="checkbox" id="myCheck">
                     <span>Washing Machines (4)</span>
                 </div>
                 <div class="checkB">
-                    <input type="checkbox" id="myCheck" onclick="ac()">
-                    <span>Air Conditioners (5)</span>
+                    <input type="checkbox" id="myCheck">
+                    <span>Air Conditioners (4)</span>
                 </div>
                 <div class="checkB">
-                    <input type="checkbox" id="myCheck" onclick="wap()">
-                    <span>Water & Air Purifiers (7)</span>
+                    <input type="checkbox" id="myCheck" checked="checked">
+                    <span>Water & Air Purifiers (4)</span>
                 </div>
                 <div class="checkB">
-                    <input type="checkbox" id="myCheck" onclick="mi()">
+                    <input type="checkbox" id="myCheck">
                     <span>Microwaves & Induction (3)</span>
                 </div>
                 <div class="checkB">
-                    <input type="checkbox" id="myCheck" onclick="aclr()">
+                    <input type="checkbox" id="myCheck">
                     <span>Air Coolers (3)</span>
                 </div>
                 <div class="checkB">
-                    <input type="checkbox" id="myCheck" onclick="dshw()">
+                    <input type="checkbox" id="myCheck">
                     <span>Dishwashers (1)</span>
                 </div>
             </div>
@@ -102,12 +115,20 @@
                 </div>
             </div>
         </div>
-        <div id="appliances">
-
+        <div id="appliancesWA">
+            <!-- <p>
+                Washing Machines
+            </p>
+            <img src="https://www.rentomojo.com/public/images/icons/close.png" alt="close"> -->
+    
         </div>
     </div>
 </body>
 </html>
-<script src="./script/viewAllAppliances.js"></script>
-<!-- <script src="./script/washing-machines-on-rent.js"></script> -->
-<!-- <script src="./frontend/ref.js"></script> -->
+<!-- <script src="./script/viewAllAppliances.js"></script>
+<script src="./frontend/product.js"></script>
+<script src="./frontend/ref.js"></script> -->
+
+<script src="./script/water-and-air-purifiers-on-rent.js"></script>
+
+
