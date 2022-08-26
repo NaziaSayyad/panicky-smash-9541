@@ -170,6 +170,10 @@ small{
     line-height: 25px;
     padding-left: 0;
 }
+.checkB input[type="checkbox"]{
+    cursor: pointer;
+    accent-color: #1dbdc0;
+}
 .hdn{
     margin-bottom: 15px;
 }
@@ -187,19 +191,46 @@ small{
     color: #505050;
     font-size: 16px;
     font-weight: 300;
-    width: 100%;
+    width: 90%;
     margin-bottom: 10px;
+    margin-left: 5px;
 }
 .sug p{
     color: #707070;
     font-size: 13px;
     font-weight: 400;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
+    width: 90%;
+    margin-left: 5px;
 }
-.sug input{
+.sbmt{
+    display: flex;
     background: #fff;
     border-radius: 3px;
     border: 1px solid #1dbdc0;
-    padding: 25px;
+    /* padding: 45px; */
     margin-left: 2%;
+    height: 45px;
+
 }
+.sbmt button{
+    background: transparent;
+    border: none;
+    color:#1dbdc0 ;
+    cursor: pointer;
+}
+.sbmt input{
+    background: transparent;
+    border: none;
+    color:#707070 ;
+    margin: -17px 0px 0px 10px;
+    outline: none;
+    width: 70%;
+}
+/* .sug input{
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid #1dbdc0;
+    padding: 15px;
+    margin-left: 2%;
+} */
