@@ -1,3 +1,109 @@
 #txt{
     font-family: sans-serif;
 }
+
+#container{
+    width: 740px;
+    height: 500px;
+    position: relative;
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    box-shadow: 0 11px 15px -7px rgb(0 0 0 / 20%), 0 24px 38px 3px rgb(0 0 0 / 14%), 0 9px 46px 8px rgb(0 0 0 / 12%);
+    margin: 24px;
+    pointer-events: auto;
+    z-index: inherit;
+    margin-top: 100px;
+
+    margin-left: 410px;
+}
+#catcont{
+width: 100px;
+background-color: #fff;
+}
+#cat{
+    width: 100%;
+    height: 80%;
+    transform: translate3d(0px, 0px, 0px);
+}
+#img{
+    width: 80%;
+    margin-left: 40px;
+    height: 300px;
+    margin-top: -45px;
+}
+
+#btn{
+    width:250px;
+    border-radius: 10px;
+    font: 12px sans-serif;
+    padding: 14px 20px;
+    color: #fafafa;
+    background-color: #dc3226;
+    font-weight: 700;
+    outline: none;
+    cursor: pointer;
+    font-family: inherit;
+    line-height: inherit;
+    text-transform: none;
+    margin: 0;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-indent: 0px;
+    display: inline-block;
+}
+#enter{
+    color: #313131;
+    font: 14px sans-serif;
+    margin: 0px 0px 8px;
+}
+
+#form{
+    width: 35%;
+    position: relative;
+    padding: 60px 35px 44px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color:#f2f4f4;
+
+}
+
+
+#catcont{
+    width: 55%;
+    padding: 85px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s ease;
+    min-height: 500px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+
+#inputt{
+    position: relative;
+    height: 50px;
+     border-collapse: separate; 
+     color: #1dbdbc;
+    flex: 1 1; 
+     flex-wrap: wrap; 
+    min-width: 24px;
+    padding: 10px 0 0;
+    width: 100%;
+    outline: none;
+    transition: box-shadow .3s cubic-bezier(.25,.8,.5,1); */
+    box-sizing: border-box 
+}
+
+#numinput{
+    height: 35px;
+    width: 230px;
+}
+
+#numinput::placeholder {
+    font: 10px/2 sans-serif;
+}

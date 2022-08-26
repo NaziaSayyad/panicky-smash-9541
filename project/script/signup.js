@@ -22,8 +22,8 @@ let getData=()=>{
                 localStorage.setItem("userData",JSON.stringify(userData))
                 alert("sign up successful")
                 let data1={
-                    username:form.username.value,
-                    password:form.password.value
+                    username:data.username,
+                    password:data.password
                 }
                 localStorage.setItem("signin",JSON.stringify(data1))
               window.location.href="index.html"
