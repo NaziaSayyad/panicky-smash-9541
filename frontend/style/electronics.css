@@ -125,3 +125,9 @@ body{
     height: 20px;
     vertical-align: middle;
 }
+#all_products{
+    cursor: pointer;
+    color: #1dbdc0;
+    text-decoration: none;
+    font-weight: 100
+}
