@@ -1,0 +1,236 @@
+body{
+    font-family: Muli,sans-serif!important;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    position: fixed;
+    width: 100%;
+    top: 58px;
+    padding: 0;
+    border-bottom: 1px solid #e6e6e6;
+    /* box-shadow: 0 4px 7px -3px rgb(0 0 0 / 10%); */
+    display: flex;
+    background: #fafafa;
+}
+.hide{
+    display: flex;
+    padding: 0 8px;
+    width: 14%;
+    margin-left: 10%;
+    justify-content:space-evenly;
+}
+.hidden{
+    width: 50%;
+    display: flex;
+    padding: 0 8px;
+    justify-content: space-around;
+    margin-left: 30%;
+    margin-right: 12.5%;
+}
+.link{
+    text-decoration: none;
+    cursor: pointer;
+    color: #717171;
+    font-size: 13px;
+    font-weight: 100;
+    padding: 15px 0;
+}
+#data{
+    width: 75%;
+    margin: auto;
+    /* border: 1px solid; */
+    position: relative;
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+.filter{
+    width: 24%;
+    height: 500px;
+}
+.appliances{
+    border: 2px solid;
+    width: 73%;
+    height: 500px;
+}
+.logo{
+    color: #717171;
+    font-size: 16px;
+    margin-top: 3px;
+    font-weight: 100;
+}
+.logo img{
+    width: 16px;
+    height: 14px;
+}
+small{
+    font-size: 85%;
+}
+.credential{
+    height: 110px;
+    box-sizing: border-box;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    padding: 20px;
+    perspective: 1000px;
+    position: relative;
+    font-weight: 100;
+    font-size: 10px;
+    margin-top: 20px;
+}
+.chooseN{
+    display: flex;
+    justify-content: space-between;
+}
+.chooseN img{
+    width: 12px;
+    height: 12px;
+    align-items: center;
+    cursor: pointer;
+    height: inherit;
+    position: relative;
+}
+.rangeslider{
+    padding: 10px 0px;
+    width: 100%;
+    height: 4px;
+    margin-left: 0px;
+    margin-top: 8px;
+}
+
+.myslider {
+    border-radius: 15px;
+    -webkit-appearance: none;
+    opacity: 2;
+
+    height: 100%;
+    top: 0px;
+    left: 0%;
+    width: 100%;
+    transition-property: width, left;
+    transition-duration: 0.5s;
+    background-color: rgb(29, 189, 192);
+   }
+  
+  
+.myslider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #fff;
+    background: #1dbdc0;
+    border-radius: 50%;
+    box-shadow: none;
+}
+  
+  
+.myslider:hover {
+    opacity: 1;
+}
+.rN{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    color: #717171;
+    font-weight: 400;
+    margin-top: 2px;
+}
+.rL{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 7px;
+    color: #bebebe;
+    font-weight: 400;
+    margin-top: 1px;
+}
+.selection{
+    height: 270px;
+    box-sizing: border-box;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    padding: 20px;
+    perspective: 1000px;
+    position: relative;
+    font-weight: 100;
+    font-size: 10px;
+    margin-top: 20px;
+}
+.checkB{
+    color: #717171;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 25px;
+    padding-left: 0;
+}
+.checkB input[type="checkbox"]{
+    cursor: pointer;
+    accent-color: #1dbdc0;
+}
+.hdn{
+    margin-bottom: 15px;
+}
+.checkB span{
+    margin-left: 6%;
+}
+.sug{
+    border: 1px solid #1dbdc0;
+    background-color: #f3fbfc;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 3px;
+}
+.sug h2{
+    color: #505050;
+    font-size: 16px;
+    font-weight: 300;
+    width: 90%;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+.sug p{
+    color: #707070;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    width: 90%;
+    margin-left: 5px;
+}
+.sbmt{
+    display: flex;
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid #1dbdc0;
+    /* padding: 45px; */
+    margin-left: 2%;
+    height: 45px;
+
+}
+.sbmt button{
+    background: transparent;
+    border: none;
+    color:#1dbdc0 ;
+    cursor: pointer;
+}
+.sbmt input{
+    background: transparent;
+    border: none;
+    color:#707070 ;
+    margin: -17px 0px 0px 10px;
+    outline: none;
+    width: 70%;
+}
+/* .sug input{
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid #1dbdc0;
+    padding: 15px;
+    margin-left: 2%;
+} */
