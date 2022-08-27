@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/frontend/product_cart.css">
+    <link rel="stylesheet" href="./product_cart.css">
     <title>Document</title>
     <style>
        
@@ -33,9 +33,10 @@
         <div id="content"> </div>
     </div>
         <div id="bottom_image_box">
-        
-            <!-- <h1>Hii </h1> -->
+             
         </div>
+        <input type="range" min="1" max="12" value="10" class="myslider" id="sliderRange"> 
+           
 </div>
 
 
@@ -73,19 +74,26 @@ console.log(products,"data");
         let container = document.getElementById("content");
         container.innerHTML = null;
         data.forEach(el => {
-        let name= document.createElement("h2");
+        let name= document.createElement("h1");
         name.innerText = el.title || el.name;
 
-        let p = document.createElement("P");
+        let p = document.createElement("p");
         p.innerText = `How long do you want to rent this for? (Months)`;
+        p.setAttribute("class","hwl");
 
         let price_div = document.createElement("div");
         price_div.setAttribute("id","pr");
 
         let pr = document.createElement("p");
         pr.innerText ="₹"+el.price+"/mo";
+        pr.setAttribute("class","paisa");
 
-            price_div.append(pr)
+        let pd = document.createElement("p");
+        pd.innerText = " 7 Days free trial";
+        pd.setAttribute("class","din");
+
+
+            price_div.append(pr,pd);
 
         let div = document.createElement("div");
         div.setAttribute("id","main_content");
@@ -95,12 +103,14 @@ console.log(products,"data");
 
         let p2 = document.createElement("p");
         p2.innerText = `Delivery by 30th Aug 2022`;
+        p2.setAttribute("class","p2");
 
         let div_btn = document.createElement("div");
         div_btn.setAttribute("id","btn_div");
 
         let btn_view= document.createElement("button");
         btn_view.innerText = `Browse View`;
+
         btn_view.setAttribute("class","btn");
 
         let btn_cart = document.createElement("button");
@@ -124,8 +134,13 @@ console.log(products,"data");
             })
 
         })
+        let rangeslider=document.createElement("div");
+        div.setAttribute("class","rangeslider"); 
+        let slider = document.getElementById("sliderRange");
+        slider.innerHTML=slider.value;
+        rangeslider.append(slider);
 
-        div.append(name,p,price_div,btn1,p2,btn2,div_btn);
+        div.append(name,p,rangeslider,price_div,btn1,p2,btn2,div_btn);
 
         container.append(div);
         });
@@ -135,21 +150,21 @@ console.log(products,"data");
 
   
    
-    let append_smaal_image = (data)=>{
-        let conatiner2 = document.getElementById("bottom_image_box");
-        conatiner2.innerHTML = null;
-        data.forEach(el => {
-            let image= document.createElement("img");
-        image.src = el.url;
+    // let append_smaal_image = (data)=>{
+    //     let conatiner2 = document.getElementById("bottom_image_box");
+    //     conatiner2.innerHTML = null;
+    //     data.forEach(el => {
+    //     let image= document.createElement("img");
+    //     image.src = el.url;
 
-        let div = document.createElement("div");
-        div.setAttribute("id","small_img_div")
-        div.append(image);
+    //     let div = document.createElement("div");
+    //     div.setAttribute("id","small_img_div")
+    //     div.append(image);
 
-        conatiner2.append(div)
-        });
+    //     conatiner2.append(div)
+    //     });
        
 
-    }
-    append_smaal_image(products);
+    // }
+    // append_smaal_image(products);
 </script>
