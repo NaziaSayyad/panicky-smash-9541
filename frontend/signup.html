@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/login.css">
+    <title>Signup</title>
+    <link rel="stylesheet" href="./signup.css">
 </head>
 <body>
+    
     <div class="login-wrap">
         <div class="login-html">
-            <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
-            <input id="tab-2" type="radio" name="tab" class="sign-up" onclick="signup()"><label for="tab-2" class="tab">Sign up</label>
+            <input id="tab-1" type="radio" name="tab" class="sign-in" onclick="signin()" ><label for="tab-1" class="tab" >Sign In</label>
+            <input id="tab-2" type="radio" name="tab" class="sign-up" checked><label for="tab-2" class="tab">Sign up</label>
             <div class="login-form">
-                <div class="sign-in-htm">
+                <div class="sign-up-htm">
                     <div class="group">
-                        <label for="username" class="label">Username</label>
+                        <label for="user" class="label">Username</label>
                         <input id="username" type="text" class="input">
                     </div>
                     <div class="group">
@@ -23,21 +24,26 @@
                         <input id="password" type="password" class="input" data-type="password">
                     </div>
                     <div class="group">
-                        <input id="check" type="checkbox" class="check" checked>
-                        <label for="check"><span class="icon"></span> Keep me Signed in</label>
+                        <label for="phone" class="label">Number</label>
+                        <input id="phone" type="text" class="input" >
                     </div>
                     <div class="group">
-                        <button onclick="getData()" class="button">SIGN IN</button>
+                        <label for="email" class="label">Email Address</label>
+                        <input id="email" type="text" class="input">
+                    </div>
+                    <div class="group">
+                       <button class="button"  onclick="getData()">Submit</button>
                     </div>
                     <div class="hr"></div>
                     <div class="foot-lnk">
-                        <a href="#forgot">Forgot Password?</a>
+                        <label for="tab-1">Already Member?</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </body>
-</html>
+    
+    
 
-<script src="./script/login.js"></script>
+<script src="./signup.js"></script>

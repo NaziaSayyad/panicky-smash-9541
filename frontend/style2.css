@@ -121,3 +121,66 @@
   font-weight: 100;
   padding: 15px 0px; 
 }
+
+#buttonlogin{
+  display: flex;
+}
+
+#cont{
+  height: 40px;
+  width: 165px;
+  font-size: larger;
+  font-family: sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 5px;
+}
+
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+ul li {
+  display: inline-block;
+  position: relative;
+  line-height: 21px;
+  text-align: left;
+}
+ul li a {
+  display: block;
+  padding: 8px 25px;
+  color: #333;
+  text-decoration: none;
+}
+ul li a:hover {
+  color: #fff;
+  background: #939393;
+}
+ul li ul.dropdown {
+  min-width: 100%; /* Set width of the dropdown */
+  background: #f2f2f2;
+  display: none;
+  position: absolute;
+  z-index: 999;
+  left: 0;
+}
+ul li:hover ul.dropdown {
+  display: block; /* Display the dropdown */
+}
+ul li ul.dropdown li {
+  display: block;
+}
+
+
+#fa{
+border: 1px solid red;
+border-radius: 10px;
+}
+#mywl{
+  border-radius: 10px;
+}
+
+#logout{
+  border: 10px;
+}

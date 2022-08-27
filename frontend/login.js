@@ -13,7 +13,7 @@ let getData=()=>{
     localStorage.setItem("signin",JSON.stringify(data))
     alert("Sign in Successful")
 
-    window.location.href="index.html"
+    window.location.href="navbar.html"
  }else{
     alert("Wrong User or Password")
  }

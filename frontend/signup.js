@@ -26,7 +26,7 @@ let getData=()=>{
                     password:data.password
                 }
                 localStorage.setItem("signin",JSON.stringify(data1))
-              window.location.href="index.html"
+              window.location.href="navbar.html"
             }else{
                 alert("account already exists")
             }

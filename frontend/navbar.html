@@ -54,11 +54,30 @@
             alt="error">
           <p>Cart</p>
         </div>
-        <div class="login_btn mr-24 ">
+        <!-- <div class="login_btn mr-24 ">
           <signup>
             <button class="bg-red-700 rounded-2xl p-5 font-serif font-normal hover:bg-white  ">LOGIN/SIGNUP</button>
           </signup>
-        </div>
+        </div> -->
+        <div id="buttonlogin">
+          <p id="username"></p>
+  
+          <ul id="cont">
+          <li id="list" > 
+          <a  id="fa" >
+              
+          </a>
+              <ul class="dropdown">
+                  <li>
+                      <a href="#" id="mywl" ></a>
+                  </li>
+                  <li >
+                      <a  id="logout"></a>
+                  </li>
+              </ul>
+          </li>
+      </ul>
+      </div>
       </div>
   </section>
   <div>
@@ -174,4 +193,35 @@
       el: '.swiper-scrollbar',
     },
   });
+  window.onload=()=>{
+    let fa=document.getElementById("fa")
+    let wl=document.getElementById("mywl")
+    let log=document.getElementById("logout")
+let data=JSON.parse(localStorage.getItem("signin"))||[]
+let user=document.getElementById("username")
+    if(!data.username || !data.password){
+        fa.innerText="Login/SignUp"
+        fa.style.backgroundColor="#DC3226"
+        fa.onclick=()=>{
+            window.location.href="./otp.html"
+        }
+        wl.style.backgroundColor="white"
+        log.style.backgroundColor="white"
+    }
+    else{
+        fa.innerText=`${data.username}`
+        wl.innerText="My Wish List"
+        log.innerText="Logout"
+        log.onclick=()=>{
+            remove()
+        }
+    }
+}
+
+
+let remove=()=>{
+    let a=window.localStorage.removeItem('signin')
+    alert("Successfully logged Out")
+    window.location.href="./navbar.html"
+}
 </script>
