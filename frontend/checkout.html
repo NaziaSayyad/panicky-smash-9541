@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./styles/cart.css"> -->
+
+</head>
+
+<style>
+      * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      /* color: #717171; */
+      /* font-family: ; */
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+
+  #c {
+      display: grid;
+      width: 100%;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(6, auto);
+      gap: 30px;
+      grid-template-areas:
+          "a a b"
+          "a a b"
+          "a a b"
+          "a a b"
+          "a a b"
+          "a a b";
+      padding: 100px;
+
+  }
+  #rent{
+    width: 90%;
+  }
+
+
+  #c>div {
+
+      border-radius: 10px;
+     
+
+
+
+
+
+  }
+
+  #c>div:nth-child(1) {
+      grid-area: a;
+      padding: 50px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 100vh;
+   
+     
+  }
+  #c{
+margin: 100px 0;
+  }
+
+  #c>div:nth-child(2) {
+      grid-area: b;
+      /* background-color: red; */
+   
+   
+  }
+
+  
+
+  #box {
+      width: 95%;
+  }
+
+  .display {
+      width: 80%;
+      align-items: center;
+  }
+
+  .display>div {
+      width: 80%;
+  }
+
+  .text {
+      font-size: 16px;
+      font-weight: 500;
+      color: rgb(77, 77, 77);
+      margin: 10px 0;
+  }
+
+  .pink {
+
+      cursor: pointer;
+      text-decoration: none;
+      margin: 10px 0;
+  }
+
+  #par_top {
+      display: flex;
+      justify-content: space-between;
+      margin: 10px 20px;
+  }
+
+  .par_1 {
+      width: 100%;
+  }
+
+  .bi-chevron-right {
+      align-items: center;
+      padding: 2px;
+      border-radius: 50%;
+      background-color:#dc3226;
+      margin-top: 15px;
+      width: 20%;
+  }
+  #par_middle{
+margin: 10px 20px;
+  }
+
+  #par_middle>P {
+      display: flex;
+      align-items: center;
+      color: #717171;
+      margin-top: 20px;
+      margin-bottom: 20px;;
+
+  }
+
+  #par_middle>P>img {
+      margin-right: 5px;
+  }
+
+
+
+  
+
+  #legend {
+      display: flex;
+      gap: 20px;
+      box-sizing: border-box;
+      width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  fieldset {
+      width: 100%;
+      /* padding: 0 10px; */
+      border-radius: 15px;
+
+
+  }
+  #legend1{
+    width: 40%;
+  }
+  #legend2{
+    width: 60%;
+    color: #717171;
+  }
+  legend{
+    font-weight: bold;
+   
+  }
+
+  .deposit {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 20px;
+      align-items: center;
+  }
+  .deposit+p{
+    width: 80%;
+  }
+ 
+  .deposit:last-child{
+    width: 20%;
+  }
+.deposit>h4{
+    display: flex;
+    padding: 0 30px;
+
+}
+
+  #par_bottom{
+    display: flex;
+    width: 40%;
+    margin: 10px 20px;
+    background-color:#dc3226;
+    padding: 10px 25px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 50px;
+   
+  }
+  #bottom_show_item{
+    display: block;
+    width: fit-content;
+  }
+  #total_amount{
+    font-size: 12px;
+  }
+  #par_bottom{
+    border-radius: 4px;
+  }
+
+
+  /* ///////////show items//////////// */
+
+  #container{
+    display: block;
+
+  }
+  #container1{
+    display: block;
+    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 20px;
+   
+    padding: 20px 20px;
+  }
+
+
+  .box1{
+    display: flex;
+    margin-right: 10px;
+   justify-content: center;
+    margin-bottom: 10px;
+   
+
+   
+  }
+  .box1:last-child{
+    margin-left: 50px;
+  
+  }
+  .box1 img:first-child {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+}
+#par_name{
+    margin-right: 20px;
+    width: 70%;
+}
+
+#par_dustbin{
+    display: flex;
+   justify-content: end;
+   cursor: pointer;
+   
+}
+
+.box2{
+    display: flex;
+    justify-content: space-between;
+   
+    margin-bottom: 5px;
+}
+.box2 img{
+    width: 10px;
+    cursor: pointer;
+    color: black;
+    
+}
+
+#quantity , #price ,#pay {
+    font-size: 16px;
+    padding: 0 4px;
+}
+#b_left{
+    display: flex;
+    padding-left: 50%
+    
+   
+}
+#b_right{
+    display: flex;
+    padding-right: 15%;
+}
+#minus{
+    margin-right: 4px;
+}
+#quantity{
+    margin-right: 4px;
+}
+
+.box3 {
+    display: flex;
+   
+margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.box3 img {
+    width: 15px;
+    cursor: pointer;
+}
+#total_amount{
+    color: #fff;
+}
+</style>
+
+<body>
+
+<div id="navbar"></div>
+    <div id="c">
+        <div id="par_1">
+            <div id="par_top">
+                <div class="par_1">
+                    <p><i class="bi bi-geo-alt"></i> Delivery Address</p>
+                    <div id="box">
+
+
+
+                        <div class="display">
+
+                            <div>
+                                <div id="address" class="text">Show Full address here</div>
+                            </div>
+                            <p>
+                                <a class="text pink" href="information.html">Change<i
+                                        class="bi bi-chevron-right">></i></a>
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="par_2"> <img src="https://www.rentomojo.com/public/images/radical-cart/address__banner.svg"
+                        alt=""></div>
+            </div>
+            <hr>
+
+
+            <div id="par_middle">
+                <p><img src="https://www.rentomojo.com/public/images/radical-cart/icons/summary__icon.svg" alt=""> Order
+                    Summary</p>
+                <div id="legend">
+                    <div id="legend1">
+                        <fieldset>
+                            <legend>Payable Now</legend>
+                            <br>
+                            <div  class="deposit">
+                                <p>Refubdable Deposit</p>
+                                <p id="deposit"><i class="bi bi-currency-rupee"></i>499</p>
+                            </div>
+                            <br>
+                            <div class="deposit">
+                                <p>Delivery charges</p>
+                                <p id="deli_charge"> <i class="bi bi-currency-rupee"></i>99</p>
+                            </div>
+                            <br>
+                        </fieldset>
+                    </div>
+                    <div id="legend2">
+                        <fieldset>
+                            <legend>Monthly Payable</legend>
+                            <br>
+                            <div class="deposit">
+                                <p id="rent">Product Rent</p>
+                                <p id="monthly"> <i class="bi bi-currency-rupee"></i>1479<p>
+                            </div>
+                            <br>
+                            <div class="deposit">
+                                <p>GST</p>
+                                <p id="gst"> <i class="bi bi-currency-rupee"></i>266</p>
+                            </div>
+                            <br>
+                            <hr>
+                            <br>
+                            <div class="deposit">
+
+                                <p>Total Monthly Rent</p>
+                                <p id="monthly_rent"> <i class="bi bi-currency-rupee"></i>1745/mo</p>
+                            </div>
+                            <br>
+
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="par_bottom">
+                <div id="total_amount" class="text-center">598<i class="bi bi-currency-rupee"></i><br>
+                    Payable now
+                    
+                </div>
+                <div id="addpage">
+                    <!-- <a href="addpage.html">
+                        Proceed</a> -->
+                   <h1> Proceed </h1>
+                    </div>
+            </div>
+
+        </div>
+
+
+        <div id="par_2">
+           <div id="par_container">
+
+          
+            <div id="container" class="container"></div>
+
+ 
+
+           </div>
+        </div>
+
+       
+
+    </div>
+<div id="footer"></div>
+
+</body>
+
+</html>
+<script>
+    // do your below
+let addToCartFromLS = JSON.parse(localStorage.getItem("cart_item")) || [];
+
+    displayTable(addToCartFromLS)
+
+   
+    function displayTable(data) {
+
+       document.getElementById("container").innerHTML = null;
+
+        data.forEach(function (elem, index) {
+
+            let container1 = document.createElement("div")
+            container1.setAttribute("id", "container1")
+            
+
+            let container2 = document.createElement("div")
+            container2.setAttribute("id", "container2")
+            
+
+            let container3 = document.createElement("div")
+            container3.setAttribute("id", "container3")
+            
+
+            let img = document.createElement("img");
+            img.setAttribute("id", "par_img");
+            img.src = elem.url;
+
+
+            let name = document.createElement("h5");
+            name.setAttribute("id", "par_name");
+            name.innerText = elem.title;
+
+
+            let dustbin = document.createElement("img")
+            dustbin.src = "https://www.rentomojo.com/public/images/radical-cart/icons/delete__icon.svg"
+            dustbin.setAttribute("id", "par_dustbin");
+            dustbin.addEventListener("click", function () {
+                itemDelete(index);
+            })
+
+            let box1 = document.createElement("div");
+            box1.setAttribute("class", "box1")
+            box1.append(img, name, dustbin);
+
+           
+
+            let pay = document.createElement("h6");
+            pay.setAttribute("id", "pay");
+            pay.innerText = +(elem.price) * + (1);
+            let total_add_page = 0;
+            total_add_page = elem.price;
+
+            let rupee1 = document.createElement("img")
+            rupee1.setAttribute("id", "rupee1")
+            rupee1.src = "https://static.thenounproject.com/png/60212-200.png"
+
+            let box3 = document.createElement("div");
+            box3.setAttribute("class", "box3")
+            box3.append(rupee1, pay);
+
+            let btn = document.getElementById("addpage");
+                btn.onclick = ()=>{
+                         console.log(total_add_page);
+                         localStorage.setItem("tot_add_page",total_add_page);
+                         window.location.href = "addpage.html";
+                }
+
+
+            container1.append(box1,box3);
+            console.log(box1,box3)
+
+
+            let subcontainer = document.createElement("div")
+
+            subcontainer.append(container1)
+
+
+            let container = document.getElementById("container")
+            container.append(subcontainer);
+
+
+        })
+    }
+
+
+    function itemDelete(index) {
+        addToCartFromLS.splice(index, 1)
+        localStorage.setItem("cart_pr", JSON.stringify(addToCartFromLS))
+        displayTable(addToCartFromLS)
+
+    }
+
+    
+//     let  total_add_page = 0;
+
+// function add_page(){
+//         console.log("tot",total_add_page)
+//         // localstorage.setItem()
+    
+//     }
+
+</script>
+

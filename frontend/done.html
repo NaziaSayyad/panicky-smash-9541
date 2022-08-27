@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success page</title>
+    <!-- <link rel="stylesheet" href="./styles/succSTYLE.css"> -->
+    <style>
+         body {
+     text-align: center;
+     padding: 40px 0;
+     background: #EBF0F5;
+     background-color: black;
+     padding-top: 100px;
+ }
+
+ #par_succ_div {
+     border-radius: 180px;
+     width: 200px;
+     height: 200px;
+     background-color: #fff;
+     margin: 0 auto;
+
+ }
+
+ h1 {
+     color: #dc3226;
+     font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+     font-weight: 900;
+     font-size: 40px;
+     margin-bottom: 10px;
+ }
+
+ h3 {
+     color: #404F5E;
+     font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+     font-size: 20px;
+     margin: 10px;
+     color: #fff;
+ }
+
+ i {
+     color: tan;
+     font-size: 100px;
+     line-height: 200px;
+     margin-left: -15px;
+ }
+
+ .par_card {
+     background: rgb(0, 0, 0);
+     padding: 60px;
+     border-radius: 4px;
+     display: inline-block;
+     margin: 0 auto;
+ }
+ #par_succ_div img{
+    width: 100%;
+ }
+    </style>
+</head>
+<body>
+    <div id="navbar"></div>
+    <div class="par_card">
+        <div id="par_succ_div">
+           <img src="https://pbs.twimg.com/profile_images/791997707392909313/qlQ2NI6o_400x400.jpg" alt="">
+        </div>
+        <h1>Payment Successful</h1>
+        <h3> Your Order Placed Successfully</h3>
+    </div>
+
+    <div id="footer"></div>
+</body>
+</html>
+<script type="module">
+
+import navbar1 from "../components/scripts/navbar.js";
+import footer1 from "../components/scripts/footer.js";
+document.querySelector("#navbar").innerHTML = navbar1();
+document.querySelector("#footer").innerHTML = footer1();
+function kau_myfunc() {
+let div = document.querySelector("#kau_show-on-hover");
+div.classList.toggle("kau_show");
+console.log("kau_button")
+}
+document.querySelector("#kau_button").addEventListener("click", kau_myfunc)
+
+
+setTimeout(function () {
+    alert("congratulations ! Your order is placed ");
+}, 3000)
+setTimeout(function () {
+    alert("continue shopping...");
+    window.location.href = "index.html";
+}, 8000)
+</script>
