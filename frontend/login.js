@@ -6,10 +6,12 @@ let getData=()=>{
     let pass=document.getElementById("password")
     let data={
         username:user.value,
-        password:pass.value
+        password:pass.value,
+        status:true,
     }
     console.log(data)
  if(checksignin(data.username,data.password)===true){
+    console.log(data);
     localStorage.setItem("signin",JSON.stringify(data))
     alert("Sign in Successful")
 
