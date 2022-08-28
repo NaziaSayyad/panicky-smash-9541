@@ -1,0 +1,385 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" sizes="180x180" href="https://www.rentomojo.com/public/images/favicon/icon-192x192.png">
+    <title data-vue-meta="true">Rent Kitchen, Dining &amp; Home Appliances in Pune | RentoMojo</title>
+  <!-- <link rel="stylesheet" href="./styles/pay.css"> -->
+<style>
+     #main {
+     width: 100%;
+     display: flex;
+     margin: auto;
+     justify-content: center;
+     margin-top: 150px;
+ }
+#pp{
+    /* color: #dc3226; */
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+ #left {
+     width: 50%;
+     /* border: 1px solid red; */
+ }
+
+
+ #contact {
+     font-weight: 500;
+     font-family: sans-serif;
+     margin-bottom: 20px;
+ }
+
+ #tick {
+     display: flex;
+     /* justify-content: start; */
+     align-items: start;
+     margin-bottom: 40px;
+ }
+
+ #tick>p {
+     display: flex;
+     /* justify-content: start; */
+     align-items: center;
+
+     height: 22px;
+ }
+
+ #form input {
+     margin-top: 14px;
+     background-color: #dc3226;
+     cursor: pointer;
+     margin-right: 10px;
+ }
+
+ #form {
+     width: 90%;
+     margin-bottom: 50px;
+ }
+
+ #form>select {
+     width: 100%;
+ }
+
+ select,
+ input {
+     font-size: 15px;
+     padding: 15px 10px;
+     border-radius: 7px;
+     border: 1px solid rgb(185, 184, 184);
+     margin-bottom: 15px;
+     width: 100%;
+ }
+
+ input:focus,
+ select:focus {
+     outline: none;
+     border: 3px solid #dc3226;
+ }
+
+ #name {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 15px;
+ }
+
+ a {
+     text-decoration: none;
+     color: #dc3226;
+ }
+
+ #box {
+     border: 1px solid rgb(197, 197, 197);
+     width: 90%;
+     border-radius: 5px;
+     margin-bottom: 50px;
+ }
+
+ .display {
+     display: flex;
+     padding: 10px 20px;
+     width: 90%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .display p {
+     font-weight: bold;
+     color: #dc3226;
+ }
+
+ .display>div {
+     width: 70%;
+     height: auto;
+     line-height: 20px;
+     display: flex;
+     align-items: center;
+
+ }
+
+ #box>.display:last-child>div {
+     width: 80%;
+ }
+
+ #contact {
+     font-weight: bold;
+ }
+
+ #state {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 10px;
+ }
+
+ #pay {
+     width: 100%;
+
+     margin-bottom: 40px;
+     border-radius: 5px;
+ }
+
+ #pay p {
+     font-weight: bold;
+ }
+
+
+ .payment {
+     width: 95%;
+     border: 1px solid rgb(216, 215, 215);
+     display: grid;
+     grid-template-columns: 10fr 1fr;
+     gap: 50px;
+
+     align-items: center;
+     padding: 5px;
+     padding-left: 20px;
+
+ }
+
+ .payment>div {
+     display: flex;
+     align-items: center;
+ }
+
+ .payment>div>p {
+     padding: 10px;
+ }
+
+ #form>div:last-child {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: -20px;
+     margin-bottom: 60px;
+ }
+
+ #form>div:last-child>p {
+     color: #dc3226;
+     cursor: pointer;
+ }
+
+ #submit {
+     font-size: 15px;
+     width: 150px;
+     height: 60px;
+     border-radius: 5px;
+     border: 0px;
+     background-color: #dc3226;
+     color: white;
+     font-weight: 600;
+ }
+
+ #submit a {
+     background-color: #dc3226;
+     color: #fff;
+ }
+
+ #submit:hover {
+     background-color: #dc3226;
+ }
+
+ #left>div:last-child {
+     width: 100%;
+     display: grid;
+     grid-template-columns: repeat(4, 1fr) 3fr;
+
+     font-size: 13px;
+     color: #dc3226;
+     margin: 20px 0px;
+ }
+
+ #left>div:last-child>p {
+     cursor: pointer;
+ }
+</style>
+</head>
+
+<body>
+<div id="navbar"></div>
+
+  <div id="main">
+    <!-- Left Part -->
+    
+    <div id="left">
+
+      <!-- Showing Contact Details (Email and full Address) -->
+      <h1 id="pp">Shipping Details</h1>
+      <div id="box">
+        <div class="display">
+          <p class="text">Contact</p>
+          <div>
+            <div id="email" class="text" style="color: black;">iesParag@gmail.com</div>
+          </div>
+          <p>
+            <a class="text pink" href="information.html">Change</a>
+          </p>
+
+        </div>
+
+        <hr>
+        <div class="display">
+          <p class="text">Ship to</p>
+          <div>
+            <div id="address" class="text" style="color: black;">Show Full address here</div>
+          </div>
+          <p>
+            <a class="text pink" href="information.html">Change</a>
+          </p>
+
+        </div>
+
+        <hr>
+        <div class="display">
+          <p class="text">Method</p>
+          <div>
+            <div class="text" style="color: black;">Standard (3-5 Business Days) ·</div>
+            <p class="text" style="color: #dc3226;font-weight: 600;">Free</p>
+          </div>
+          <p></p>
+
+        </div>
+      </div>
+
+
+      <h2 id="contact">Payment</h2>
+      <p class="text" style="margin: -10px 0px 20px ;">All transactions are secure and encrypted.</p>
+
+      <form id="form">
+
+        <div id="pay">
+
+          <div class="payment">
+            <a
+              href="https://razorpay.com/?utm_adgroup=brandsearch_core&utm_gclid=Cj0KCQjwlemWBhDUARIsAFp1rLXTSWmaHeO0j4NHoxcMpgSxlRI2fJx5KFWFR8oENfs59lE3Y7MlfGkaAlVDEALw_wcB&utm_source=google&utm_medium=cpc&utm_campaign=RPSME-RPPerf-GSearchBrand-Prospect-Dweb-Core&utm_term=razorpay&hsa_src=g&hsa_ad=600098996154&hsa_kw=razorpay&hsa_mt=e&hsa_acc=9786800965&hsa_net=adwords&hsa_ver=3&hsa_grp=27293859910&hsa_tgt=kwd-337200051286&hsa_cam=400139470&gclid=Cj0KCQjwlemWBhDUARIsAFp1rLXTSWmaHeO0j4NHoxcMpgSxlRI2fJx5KFWFR8oENfs59lE3Y7MlfGkaAlVDEALw_wcB">
+              <div>
+                <input type="radio" name="pay" style="background-color: #141212; width: 20px; height: 20px" />
+
+                <img style="width: 20% ;" src="https://www.rentomojo.com/public/images/cart/payment/razorpay.png"
+                  alt="">
+              </div>
+            </a>
+
+          </div>
+
+
+          <div class="payment">
+            <a href="https://www.amazon.in/amazonpay/home?ref_=apay_logo_APayDashboard">
+              <div>
+                <input type="radio" name="pay" style="background-color: #141212; width: 20px; height: 20px" />
+                <img style="width: 30% ;" src="https://www.rentomojo.com/public/images/cart/payment/amazon-pay.png"
+                  alt="">
+              </div>
+            </a>
+
+            <p class="text" style="font-weight: 600"></p>
+          </div>
+
+          <div class="payment">
+            <a href="https://www.mobikwik.com/">
+              <div>
+                <input type="radio" name="pay" style="background-color: #141212; width: 20px; height: 20px" />
+                <img style="width: 30% ;" src="https://www.rentomojo.com/public/images/cart/payment/mobikwik.png"
+                  alt="">
+              </div>
+            </a>
+
+            <p class="text" style="font-weight: 600"></p>
+          </div>
+
+          <div class="payment">
+            <a href="https://paytm.com/">
+              <div>
+                <input type="radio" name="pay" style="background-color: #141212; width: 20px; height: 20px" />
+                <img style="width: 30% ;" src="https://www.rentomojo.com/public/images/cart/payment/paytm.png" alt="">
+              </div>
+            </a>
+            <p class="text" style="font-weight: 600"></p>
+          </div>
+
+
+          <div class="payment">
+            <div>
+              <input type="radio" name="pay" style="background-color: #dc3226; width: 20px; height: 20px" />
+              <p class="text" style="margin-left: -10px ;    ;">
+                Cash on Delivery (COD)</p>
+            </div>
+
+            <p class="text" style="font-weight: 600"></p>
+          </div>
+
+        </div>
+
+
+
+
+
+
+        <!-- Submit button -->
+        <div>
+          <p>
+            <a class="text pink" href="information.html">
+              < Return to shipping</a>
+          </p>
+
+          <button id="submit"><a href="done.html">Complete Order</a></button>
+
+
+
+
+        </div>
+
+      </form>
+
+
+
+    </div>
+   
+</div>
+<div id="footer"></div>
+</body>
+
+</html>
+
+<script type="module">
+
+  import navbar1 from "../components/scripts/navbar.js";
+  import footer1 from "../components/scripts/footer.js";
+  document.querySelector("#navbar").innerHTML = navbar1();
+  document.querySelector("#footer").innerHTML = footer1();
+  function kau_myfunc() {
+    let div = document.querySelector("#kau_show-on-hover");
+    div.classList.toggle("kau_show");
+    console.log("kau_button")
+  }
+  document.querySelector("#kau_button").addEventListener("click", kau_myfunc)
+
+
+  let address = JSON.parse(localStorage.getItem("userAddress"));
+  console.log(address)
+  document.querySelector("#email").innerText = address.phone;
+  document.querySelector("#address").innerText = address.address + "," + " " + address.apartment + "," + " " + address.pin + "," + " " + address.city + "," + " " + address.state + "," + " " + address.country;
+
+</script>

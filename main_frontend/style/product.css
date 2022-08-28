@@ -1,0 +1,8 @@
+#prdcts{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+img{
+    width: 250px;
+    height: 250px;
+}

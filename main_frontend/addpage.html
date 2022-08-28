@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
+    <link rel="shortcut icon" sizes="180x180" href="https://www.rentomojo.com/public/images/favicon/icon-192x192.png">
+    <title data-vue-meta="true">Rent Kitchen, Dining &amp; Home Appliances in Pune | RentoMojo</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
+    <!-- <link rel="stylesheet" href="footer.css"> -->
+    <!-- <link rel="stylesheet" href="./styles/info.css" /> -->
+    <style>
+        * {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+#main {
+    width: 100%;
+    display: flex;
+    margin: 50px auto;
+    justify-content: end;
+    margin-top: 150px;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #dc3226;
+}
+#left {
+    width: 47%;
+}
+
+
+#right {
+    width: 44%;
+    padding: 60px 80px 60px 40px;
+    background-color: #fafafa;
+}
+
+
+
+
+
+#contact {
+    font-weight: 500;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+
+
+#tick {
+    display: flex;
+    /* justify-content: start; */
+    align-items: start;
+    margin-bottom: 40px;
+}
+
+#tick>p {
+    display: flex;
+    /* justify-content: start; */
+    align-items: center;
+
+    height: 22px;
+}
+
+#tick>input {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    accent-color: #dc3226;
+    border-radius: 20%;
+}
+
+input[type='checkbox']:checked {
+    background-color: #dc3226;
+}
+
+input[type='checkbox']:checked:after {
+    background-color: #dc3226;
+    padding: 0px;
+    padding-right: 4px;
+    padding-left: 3px;
+
+    content: '\2713';
+    font-size: 15px;
+    color: rgb(241, 235, 235);
+}
+
+#form {
+    width: 90%;
+}
+
+#form>select {
+    width: 100%;
+}
+
+select,
+input {
+    font-size: 15px;
+    padding: 15px 10px;
+    border-radius: 7px;
+    border: 1px solid rgb(185, 184, 184);
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border: 3px solid #dc3226;
+}
+
+#name {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+#state {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+#form>div:last-child {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    margin-top: -20px;
+    align-items: center;
+}
+
+#form>div:last-child>p {
+    cursor: pointer;
+    color: #dc3226;
+}
+
+#submit {
+    width: 190px;
+    height: 60px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: white;
+    border: 0px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #dc3226;
+}
+
+#submit:hover {
+    background-color:#dc3226;
+    cursor: pointer;
+}
+
+#left>div:last-child {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) 3fr;
+
+    font-size: 13px;
+    color:#dc3226;
+    margin: 20px 0px;
+}
+
+#left>div:last-child>p {
+
+    cursor: pointer;
+}
+
+hr {
+    border: 0.1px solid rgb(229, 228, 228);
+    width: 90%;
+}
+
+#right>p:first-child {
+    font-size: 17px;
+    font-weight: bold;
+    color:#dc3226;
+    margin-bottom: 50px;
+}
+
+.text>span {
+    color:#dc3226;
+}
+
+
+#container {
+    width: 90%;
+    height: 120px;
+    overflow: auto;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.vl {
+    border-right: 2px solid rgb(229, 228, 228);
+    height: auto;
+}
+
+.rec {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 64% 22%;
+    gap: 20px;
+}
+
+.button {
+    font-size: 15px;
+    /* width: 190px; */
+    height: 50px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #c8c8c8;
+    color: white;
+    font-weight: 600;
+}
+
+.button:hover {
+    background-color:#dc3226;
+}
+
+#totalBar {
+    width: 100%;
+    height: 60px;
+    padding-right: 55px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#totalBar>div:last-child {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+#total {
+    display: flex;
+    flex-direction: row-reverse;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 10px;
+}
+
+#totalBar2 {
+    width: 100%;
+    height: 60px;
+    padding-right: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#totalBar2>div {
+    width: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text {
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+}
+
+
+
+
+
+/* Large Screen */
+@media all and (min-width:721px) and (max-width:1500px) {
+    #main {
+        width: 100%;
+
+    }
+
+    #left {
+        width: 46%;
+
+    }
+
+    #right {
+        width: 45%;
+        padding-right: 80px;
+    }
+
+    #left>div:last-child {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr) 2fr;
+        /* gap: 10px; */
+        font-size: 10px;
+    }
+
+    #container {
+        width: 90%;
+    }
+
+    #nav {
+        width: 43%;
+    }
+
+    #nav>div {
+        width: 100%;
+    }
+
+    #nav>div p {
+        font-size: 12px;
+
+    }
+
+    #avatar {
+        width: 100%;
+
+        align-items: center;
+    }
+
+}
+
+/* Medium Screen */
+@media all and (min-width:480px) and (max-width:720px) {
+    #main {
+        width: 100%;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    #left {
+        width: 100%;
+        margin: auto;
+        padding-left: 100px;
+    }
+
+    #right {
+        width: 100%;
+        padding-left: 100px;
+    }
+
+    #left>div:last-child {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr) 2fr;
+
+        font-size: 10px;
+    }
+
+    #avatar {
+        width: 100%;
+
+        align-items: center;
+    }
+
+
+}
+
+/* small Screen */
+@media all and (min-width:350px) and (max-width:479px) {
+    #main {
+        width: 100%;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    #left {
+        width: 100%;
+        margin: auto;
+        padding: 0px;
+        padding-left: 15px;
+    }
+
+    #form {
+        width: 95%;
+    }
+
+    #right {
+        width: 100%;
+        padding: 0px 15px;
+
+
+    }
+
+    #left>div:last-child {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr) 1fr;
+
+        font-size: 9px;
+    }
+
+    #totalBar {
+        padding-right: 0px;
+    }
+
+    #totalBar2 {
+        padding-right: 0px;
+    }
+
+    #container {
+
+        height: 160px;
+
+    }
+
+    #nav {
+        width: 40%;
+    }
+
+    #nav>div {
+        width: 100%;
+    }
+
+    #nav>div p {
+        font-size: 9px;
+
+    }
+
+    #avatar {
+        width: 100%;
+
+        align-items: center;
+    }
+
+
+
+}
+
+    </style>
+  </head>
+  <body>
+    <div id="navbar_import"></div>
+    <div id="main">
+      <!-- Left Part -->
+      <div id="left">
+        <h3 id="contact">Shipping address</h3>
+        <!-- Shipping address Data -->
+
+        <form id="form">
+          <select name="country" id="country" class="select">
+            <option value="India">India</option>
+          </select>
+          <div id="name">
+            <input
+              id="firstName"
+              type="text"
+              required
+              placeholder="First Name"
+            />
+            <input id="lastName" required type="text" placeholder="Last Name" />
+          </div>
+          <input id="address" required type="text" placeholder="Address" />
+          <input
+            id="apartment"
+            type="text"
+            placeholder="Apartment (optional)"
+          />
+
+          <div id="state">
+            <input id="city" type="text" placeholder="City" />
+            <select name="state" id="state">
+              <option value="">State</option>
+
+              <option value="Andhra Pradesh">Andhra Pradesh</option>
+
+              <option value="Assam">Assam</option>
+
+              <option value="Chandigarh">Chandigarh</option>
+
+              <option value="Daman and Diu">Daman and Diu</option>
+              <option value="Delhi">Delhi</option>
+              <option value="Goa">Goa</option>
+              <option value="Gujarat">Gujarat</option>
+              <option value="Haryana">Haryana</option>
+              <option value="Himachal Pradesh">Himachal Pradesh</option>
+
+              <option value="Karnataka">Karnataka</option>
+              <option value="Kerala">Kerala</option>
+              <option value="Ladakh">Ladakh</option>
+
+              <option value="Madhya Pradesh">Madhya Pradesh</option>
+              <option value="Maharashtra">Maharashtra</option>
+
+              <option value="Punjab">Punjab</option>
+              <option value="Rajasthan">Rajasthan</option>
+
+              <option value="Uttar Pradesh">Uttar Pradesh</option>
+              <option value="Uttarakhand">Uttarakhand</option>
+            </select>
+            <input id="pin" required type="text" placeholder="PIN code" />
+          </div>
+
+          <input id="phone" required type="number" placeholder="Phone" />
+
+          <div id="tick">
+            <input type="checkbox" />
+            <p class="text">Get Order Updates On WhatsApp</p>
+          </div>
+          <!-- Submit button -->
+          <div>
+            <p><a href="cart.html">< Return to cart</a></p>
+            <button id="submit">Continue to Payment</button>
+          </div>
+        </form>
+
+        <hr />
+      </div>
+
+      <!-- Right Part -->
+      <div id="right">
+        <p class="text">
+          <span>Pay now and get</span>
+          and get 5% instant discount
+        </p>
+
+        <br />
+        <h4 style="font-weight: 600">You have ' 30 ' points</h4>
+        <p class="text" style="margin-top: 20px">Redeem ' 500 ' points</p>
+        <div class="rec">
+          <input type="range" max="0" />
+          <button class="button">Redeem</button>
+        </div>
+        <p class="text" style="margin-top: -10px; margin-bottom: 20px">
+          You need a minimum of 1000 points to redeem.
+        </p>
+        <hr style="margin-bottom: 20px" />
+        <div class="rec" style="margin-bottom: 20px">
+          <input
+            id="code"
+            type="text"
+            placeholder="Gift card or discount code"
+          />
+          <button id="coupon" class="button">Apply</button>
+        </div>
+        <hr style="margin-bottom: 30px" <!-- Total -- />
+        <div id="totalBar">
+          <div>
+            <p class="text" style="margin-bottom: 10px">Subtotal</p>
+            <p class="text">Shipping</p>
+          </div>
+          <div>
+            <div id="total" class="text total1"> </div>
+            <p class="text">Calculated at next step</p>
+          </div>
+        </div>
+        <hr style="margin-bottom: 30px" />
+
+        <div id="totalBar2">
+          <h4 class="text" style="font-size: 20px; color: black">Total</h4>
+          <div>
+            <p class="text">INR</p>
+            <h1 id="total2">₹</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer_import" style="margin-top: 10%;"></div>
+  </body>
+</html>
+
+<script type="module">
+
+//   import navbar1 from "../components/scripts/navbar.js";
+//   import footer1 from "../components/scripts/footer.js";
+//   document.querySelector("#navbar").innerHTML = navbar1();
+//   document.querySelector("#footer").innerHTML = footer1();
+  function kau_myfunc() {
+    let div = document.querySelector("#kau_show-on-hover");
+    div.classList.toggle("kau_show");
+    console.log("kau_button")
+  }
+//   document.querySelector("#kau_button").addEventListener("click", kau_myfunc)
+
+  let total = JSON.parse(localStorage.getItem("tot_add_page")) || 0;
+  let sum =99;
+  sum = sum+total;
+  let b =  document.querySelector("#total2");
+    b.innerText = "₹" + sum;
+
+  let a = document.querySelector(".total1")
+  a.innerText = "₹" + 99;
+
+
+  let shippingAdress =  [];
+  document.querySelector("#form").addEventListener("submit", function () {
+    event.preventDefault();
+
+    let data = {
+      country: document.querySelector("#form").country.value,
+      first: document.querySelector("#form").firstName.value,
+      last: document.querySelector("#form").lastName.value,
+      address: document.querySelector("#form").address.value,
+      apartment: document.querySelector("#form").apartment.value,
+      city: document.querySelector("#form").city.value,
+      state: document.querySelector("#form").state.value,
+      pin: document.querySelector("#form").pin.value,
+      phone: document.querySelector("#form").phone.value,
+    };
+
+    shippingAdress.push(data)
+
+    localStorage.setItem("userAddress", JSON.stringify(shippingAdress));
+
+    window.location.href = "Payment.html";
+  });
+
+  // Functionality of PROMO CODE (Discount coupon)
+  let count = 1;
+  // use count feature, so that User use COupon Only ONCE
+
+  document.querySelector("#coupon").addEventListener("click", function () {
+    let code = document.querySelector("#code").value;
+
+    if (code == "masai15" && count < 2) {
+      // use count feature, so that User use COupon Only ONCE
+      total = total - (15 * total) / 100;
+      document.querySelector(".total1").innerText = "₹" + total;
+      document.querySelector("#total2").innerText = "₹" + total;
+
+      localStorage.setItem("totalPrice1", total);
+      // alert("Valid Promo code, Click OK To Apply")
+      count++;
+    } else {
+      alert("Invalid Code");
+    }
+  });
+
+//   let submit=()=>{
+//     window.location.href="done.html"
+//   }
+
+
+//   let add_page_data = JSON.parse(localStorage.getItem("tot_add_page"));
+//         let get_data = document.getElementById("total");
+//             get_data.innerText = add_page_data;
+
+
+</script>
+<script src="./export.js" type="module"></script>
