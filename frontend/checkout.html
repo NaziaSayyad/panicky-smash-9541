@@ -5,9 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" sizes="180x180" href="https://www.rentomojo.com/public/images/favicon/icon-192x192.png">
+    <title data-vue-meta="true">Rent Kitchen, Dining &amp; Home Appliances in Pune | RentoMojo</title>
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./styles/cart.css"> -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
 
 </head>
 
@@ -66,7 +69,7 @@
      
   }
   #c{
-margin: 100px 0;
+margin: -10px 0;
   }
 
   #c>div:nth-child(2) {
@@ -314,7 +317,7 @@ margin-top: 10px;
 
 <body>
 
-<div id="navbar"></div>
+<div id="navbar_import"></div>
     <div id="c">
         <div id="par_1">
             <div id="par_top">
@@ -422,7 +425,7 @@ margin-top: 10px;
        
 
     </div>
-<div id="footer"></div>
+<div id="footer_import"></div>
 
 </body>
 
@@ -459,7 +462,7 @@ let addToCartFromLS = JSON.parse(localStorage.getItem("cart_item")) || [];
 
             let name = document.createElement("h5");
             name.setAttribute("id", "par_name");
-            name.innerText = elem.title;
+            name.innerText = elem.title || elem.name;
 
 
             let dustbin = document.createElement("img")
@@ -493,7 +496,7 @@ let addToCartFromLS = JSON.parse(localStorage.getItem("cart_item")) || [];
                 btn.onclick = ()=>{
                          console.log(total_add_page);
                          localStorage.setItem("tot_add_page",total_add_page);
-                         window.location.href = "addpage.html";
+                         add_Page();                        
                 }
 
 
@@ -520,15 +523,28 @@ let addToCartFromLS = JSON.parse(localStorage.getItem("cart_item")) || [];
         displayTable(addToCartFromLS)
 
     }
+    let add_Page = () =>{
+    let result = JSON.parse(localStorage.getItem("signin"));
+    console.log(result);
+    let res;
 
+    if(result ==null){
+        res = false;
+    }
+    else{
+        res= true;
+    }
     
-//     let  total_add_page = 0;
-
-// function add_page(){
-//         console.log("tot",total_add_page)
-//         // localstorage.setItem()
-    
-//     }
-
+    if(res == true){
+        window.location.href = "addpage.html";
+    }
+    else{
+         alert("You Need To Login First");
+    window.location.href = "otp.html";
+    }
+    console.log("in");
+   
+}
 </script>
+<script src="./export.js" type="module"></script>
 

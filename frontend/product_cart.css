@@ -6,14 +6,16 @@ body{
     margin: 0;
 }
 .container{
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
-    top: 58px;
+    top: 70px;
     padding: 0;
     border-bottom: 1px solid #e6e6e6;
     /* box-shadow: 0 4px 7px -3px rgb(0 0 0 / 10%); */
     display: flex;
     background: #fafafa;
+    margin-top: 10px;
+   
 }
 .hide{
     display: flex;
@@ -42,8 +44,8 @@ body{
     /* border: 1px solid rgb(48, 34, 197); */
     /* width: ; */
     box-sizing: border-box;
-    width: 1050px;
-    height:570px;
+    width: 1350px;
+    height:700px;
 }
 #big_img{
     width: 70%;
@@ -51,7 +53,7 @@ body{
 }
 #main_con{
     display: flex;
-    margin-top: 105px;
+    margin-top: 10px;
 }
 #content{
     /* border: 1px solid; */

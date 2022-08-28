@@ -6,7 +6,7 @@ body{
     margin: 0;
 }
 .container{
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     top: 58px;
     padding: 0;

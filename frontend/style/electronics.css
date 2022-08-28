@@ -6,7 +6,7 @@ body{
     margin: 0;
 }
 .container{
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     top: 58px;
     padding: 0;
@@ -104,26 +104,35 @@ body{
     bottom: -22px;
     border-radius: 2px;
     margin-left: 23px;
+    cursor: pointer;
+    justify-content: center;
 }
 .details:hover {
     transition: 0.3s linear;
     transform: translate(0, -3px);
+
 }
+
 .viewAll{
     width: 80%;
     margin-left: 12.5%;
     font-weight: 100;
+    display: flex;
+    justify-items: center;
+    align-items: center;
 }
-.viewAll a{
+.viewAll {
     cursor: pointer;
     color: #1dbdc0;
     text-decoration: none;
     font-weight: 100;
+
 }
 .viewAll img{
     width: 20px;
     height: 20px;
     vertical-align: middle;
+    margin-left: 5px;
 }
 #all_products{
     cursor: pointer;

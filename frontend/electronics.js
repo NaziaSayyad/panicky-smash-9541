@@ -71,6 +71,6 @@ let get_all_prdts = async ()=>{
     let result = data[0].laptops;
     console.log(result);
     localStorage.setItem("prdct_data",JSON.stringify(0));
-    // window.location.href="product.html";
+    window.location.href="product.html";
 
 }

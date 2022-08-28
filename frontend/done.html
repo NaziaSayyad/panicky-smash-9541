@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Success page</title>
+    <link rel="shortcut icon" sizes="180x180" href="https://www.rentomojo.com/public/images/favicon/icon-192x192.png">
+    <title data-vue-meta="true">Rent Kitchen, Dining &amp; Home Appliances in Pune | RentoMojo</title>
     <!-- <link rel="stylesheet" href="./styles/succSTYLE.css"> -->
     <style>
          body {
@@ -57,6 +58,12 @@
  #par_succ_div img{
     width: 100%;
  }
+ #buy_more{
+    font-size: 30px;
+    color: red;
+    cursor: pointer;
+    border: 2px solid red;
+ }
     </style>
 </head>
 <body>
@@ -67,6 +74,7 @@
         </div>
         <h1>Payment Successful</h1>
         <h3> Your Order Placed Successfully</h3>
+       <h2 id="buy_more">  Byu More Products </h2>
     </div>
 
     <div id="footer"></div>
@@ -74,16 +82,16 @@
 </html>
 <script type="module">
 
-import navbar1 from "../components/scripts/navbar.js";
-import footer1 from "../components/scripts/footer.js";
-document.querySelector("#navbar").innerHTML = navbar1();
-document.querySelector("#footer").innerHTML = footer1();
+// import navbar1 from "../components/scripts/navbar.js";
+// import footer1 from "../components/scripts/footer.js";
+// document.querySelector("#navbar").innerHTML = navbar1();
+// document.querySelector("#footer").innerHTML = footer1();
 function kau_myfunc() {
 let div = document.querySelector("#kau_show-on-hover");
 div.classList.toggle("kau_show");
 console.log("kau_button")
 }
-document.querySelector("#kau_button").addEventListener("click", kau_myfunc)
+// document.querySelector("#kau_button").addEventListener("click", kau_myfunc)
 
 
 setTimeout(function () {
@@ -92,5 +100,12 @@ setTimeout(function () {
 setTimeout(function () {
     alert("continue shopping...");
     window.location.href = "index.html";
-}, 8000)
+}, 8000);
+
+
+let btn = document.getElementById("buy_more");
+btn.onclick = ()=>{
+    window.location.href = "index.html";
+}
+
 </script>
