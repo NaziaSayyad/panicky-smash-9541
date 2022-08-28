@@ -591,8 +591,7 @@ hr {
   a.innerText = "₹" + 99;
 
 
-  let shippingAdress =  [];
-  document.querySelector("#form").addEventListener("submit", function () {
+  document.querySelector("#submit").addEventListener("click", function () {
     event.preventDefault();
 
     let data = {
@@ -607,9 +606,8 @@ hr {
       phone: document.querySelector("#form").phone.value,
     };
 
-    shippingAdress.push(data)
-
-    localStorage.setItem("userAddress", JSON.stringify(shippingAdress));
+    
+    localStorage.setItem("userAddress", JSON.stringify(data));
 
     window.location.href = "Payment.html";
   });
