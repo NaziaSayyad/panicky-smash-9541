@@ -1,7 +1,7 @@
 ## Renetomoj
 It is clone of E-commerce website Nykaa which deals on the products based on electronics, Furniture and various items. It is a collaborative project which is done with the help of 5 members.
 
-##Live Link:- https://whimsical-bavarois-f46ae2.netlify.app/
+## Live Link:- https://whimsical-bavarois-f46ae2.netlify.app/
 
 ## The website contains several functionality, below is the demo pictures of the website pages along with 
    the descripton of each page that has been build by me and my team members.
