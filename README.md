@@ -1,4 +1,4 @@
-## Renetomoj
+## RENTOMOJO
 It is clone of E-commerce website Rentomojo which deals on the products based on electronics, Furniture and various items. It is a collaborative project which is done with the help of 5 members.
 
 ## Live Link:- https://whimsical-bavarois-f46ae2.netlify.app/
