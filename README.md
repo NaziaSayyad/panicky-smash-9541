@@ -3,8 +3,8 @@ It is clone of E-commerce website Rentomojo which deals on the products based on
 
 ## Live Link:- https://whimsical-bavarois-f46ae2.netlify.app/
 
-## The website contains several functionality, below is the demo pictures of the website pages along with 
-   the descripton of each page that has been build by me and my team members.
+## The website contains several functionality, below is the demo pictures of the website pages along with the descripton of each page that has been build by me and my team members.
+   
 
 # 1) Landing Page:
 
